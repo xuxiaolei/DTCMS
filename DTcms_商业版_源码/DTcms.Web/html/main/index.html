@@ -1,0 +1,736 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DTcms网站管理系统 - 动力启航_开源cms_NET开源_cms建站</title>
+<meta name="keywords" content="动力启航,DTCMS系统,ASP.NET开源,开源CMS,网站管理系统,互联网开发" />
+<meta name="description" content="让更多的人分享互联网开发技术" />
+<link href="/templates/main/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" charset="utf-8" src="/scripts/jquery/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/templates/main/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/templates/main/js/common.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(".focusbox").flexslider({
+		directionNav: false,
+		pauseOnAction: false
+	});
+});
+</script>
+</head>
+
+<body>
+<!--Header-->
+<div class="header">
+  <div class="header-wrap">
+    <div class="section">
+      <div class="left-box">
+        <a class="logo" href="/index.html">DTcms内容管理系统</a>
+        <p class="nav">
+          <a href="/news/index.html">资讯</a>
+          <a href="/goods.html">商城</a>
+          <a href="/video.html">视频</a>
+          <a href="/photo.html">图片</a>
+          <a href="/down.html">下载</a>
+        </p>
+      </div>
+      <div class="search">
+        <input id="keywords" name="keywords" class="input" type="text" onkeydown="if(event.keyCode==13){SiteSearch('/search.html', '#keywords');return false};" placeholder="输入回车搜索" x-webkit-speech="" />
+        <input class="submit" type="submit" onclick="SiteSearch('/search.html', '#keywords');" value="搜索" />
+      </div>
+      <div class="right-box">
+      <script type="text/javascript">
+			$.ajax({
+				type: "POST",
+				url: "/tools/submit_ajax.ashx?action=user_check_login",
+				dataType: "json",
+				timeout: 20000,
+				success: function (data, textStatus) {
+					if (data.status == 1) {
+						$("#menu").prepend('<li class="line"><a href="/user/center/exit.html">退出</a></li>');
+						$("#menu").prepend('<li class="login"><em></em><a href="/user/center/index.html">会员中心</a></li>');
+					} else {
+						$("#menu").prepend('<li class="line"><a href="/register.html">注册</a></li>');
+						$("#menu").prepend('<li class="login"><em></em><a href="/login.html">登录</a></li>');
+					}
+				}
+			});
+		</script>
+        <ul id="menu">
+          <li>
+            <a href="/cart.html">购物车<span id="shoppingCartCount"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_cart_count"></script></span>件</a>
+          </li>
+          <li><a href="/content/contact.html">联系我们</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/Header-->
+
+<div class="section clearfix">
+  <div class="ntitle">
+    <h2>
+      <a href="/news/index.html">新闻资讯<em></em></a>
+    </h2>
+    <p>
+      <!--类别-->
+      
+      <a class="no-bg" href="/news/hlwmt.html">互联网媒体</a>
+      
+      <a href="/news/4.html">科技财经</a>
+      
+      <a href="/news/5.html">汽车房产</a>
+      
+      <!--/类别-->
+    </p>
+  </div>
+  <div class="wrapper clearfix">
+    <div class="main-left">
+      <div class="focusbox">
+        <ul class="slides">
+          
+          <li>
+            <a title="58同城与赶集网最快今日将宣布合并" href="/news/show-22.html">
+              <span class="note-bg"></span>
+              <span class="note-txt">58同城与赶集网最快今日将宣布合并</span>
+              <img src="/upload/201504/16/201504161303162262.jpg" />
+            </a>
+          </li>
+          
+          <li>
+            <a title="抢先实拍猎豹CS10 霸气时尚2.0T涡轮增压" href="/news/show-15.html">
+              <span class="note-bg"></span>
+              <span class="note-txt">抢先实拍猎豹CS10 霸气时尚2.0T涡轮增压</span>
+              <img src="/upload/201504/16/201504161218505373.jpg" />
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+    
+    <div class="main-left" style="margin-right:0;">
+      <ul class="txt-list">
+        
+        <li class="tit">
+        
+          <a title="钢铁行业电子商务第三方支付平台探讨1" href="/news/show-34.html">钢铁行业电子商务第三方支付平台探讨1</a>
+        </li>
+        
+        <li>
+         <span>04-17</span>
+        
+          <a title="分析师称苹果市值今年将突破1万亿美元" href="/news/show-33.html">分析师称苹果市值今年将突破1万亿美元</a>
+        </li>
+        
+        <li>
+         <span>04-17</span>
+        
+          <a title="深圳限购限行后首次公车拍卖 近三成流拍" href="/news/show-32.html">深圳限购限行后首次公车拍卖 近三成流拍</a>
+        </li>
+        
+        <li>
+         <span>04-17</span>
+        
+          <a title="购房者最看重房贷优惠 二套房利率上浮5%" href="/news/show-31.html">购房者最看重房贷优惠 二套房利率上浮5%</a>
+        </li>
+        
+        <li>
+         <span>04-17</span>
+        
+          <a title="今年海外购房额或达350亿美元 中国房东将遍布世界" href="/news/show-30.html">今年海外购房额或达350亿美元 中国房东将遍布世界</a>
+        </li>
+        
+        <li>
+         <span>04-17</span>
+        
+          <a title="淘宝严厉打击刷单行为 三家网店虚假交易受罚关门" href="/news/show-29.html">淘宝严厉打击刷单行为 三家网店虚假交易受罚关门</a>
+        </li>
+        
+        <li>
+         <span>04-17</span>
+        
+          <a title="普通美国人怎么看 Apple Watch？" href="/news/show-28.html">普通美国人怎么看 Apple Watch？</a>
+        </li>
+        
+        <li>
+         <span>04-17</span>
+        
+          <a title="中国首个东盟电子商务平台“美丽湾”启动" href="/news/show-27.html">中国首个东盟电子商务平台“美丽湾”启动</a>
+        </li>
+        
+        <li>
+         <span>04-16</span>
+        
+          <a title="走小米的路子就想颠覆苹果？乐视君，你还是醒醒吧" href="/news/show-26.html">走小米的路子就想颠覆苹果？乐视君，你还是醒醒吧</a>
+        </li>
+        
+      </ul>
+    </div>
+    <div class="sidebar-right" style="margin-left:15px;">
+      <ul class="img-list ilist">
+        
+        <li>
+          <a title="电商下乡，京东、苏宁、阿里农村遭遇战打响？" href="/news/show-23.html">
+            
+            <span class="abs-txt">头条</span>
+            
+            <span class="abs-bg"></span>
+            <span class="txt1">电商下乡，京东、苏宁、阿里农村遭遇战打响？</span>
+            <span class="txt2">
+              <i>04-16</i>
+              <p>2015年，各大电商逐鹿广袤的农村市场，一场圈地运动正在上演，焦点之战在家电市场首先展开。4月9日，京东公布农村电商发展的阶段性成果，其中定位于农村大家电营销、配送、安装、维修的京东帮服务店表现抢眼——4个月时间，开设了超过…</p>
+            </span>
+            <img src="/upload/201504/16/201504161329185965.jpg" />
+          </a>
+        </li>
+        
+        <li>
+          <a title="乐视手机遭疯狂吐槽 忽不忽悠看了再说" href="/news/show-20.html">
+            
+            <span class="abs-txt">头条</span>
+            
+            <span class="abs-bg"></span>
+            <span class="txt1">乐视手机遭疯狂吐槽 忽不忽悠看了再说</span>
+            <span class="txt2">
+              <i>04-16</i>
+              <p>昨天，乐视发布了3款手机，乐1、乐1Pro和乐Max，定价分别为1499、2499，乐Max采用全民定价尚未披露价格。一时间，乐视网[0.17% 资金 研报]和贾跃亭再次被推上风口。这年头，传统的制造企业转型造手机屡见不鲜,不可否认，这是一个门槛很低的行业，乐视发布其手机虽是意料之中，…</p>
+            </span>
+            <img src="/upload/201504/16/201504161254335201.jpg" />
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section clearfix">
+  <div class="ntitle">
+    <h2>
+      <a href="/goods.html">购物商城<em></em></a>
+    </h2>
+    <p>
+      <!--类别-->
+      
+      <a class="no-bg" href="/goods/40.html">手机数码</a>
+      
+      <a href="/goods/41.html">电脑办公</a>
+      
+      <a href="/goods/42.html">影音娱乐</a>
+      
+      <!--/类别-->
+    </p>
+  </div>
+  <div class="wrapper clearfix">
+    <div class="main-left ilist">
+      
+      <a title="Apple iMac MF883CH/A 21.5英寸一体机电脑" href="/goods/show-93.html">
+        <span class="abs-bg"></span>
+        <span class="txt1">Apple iMac MF883CH/A 21.5英寸一体机电脑</span>
+        <span class="txt2">
+          <p>赏心悦目de感官享受 艺术品般de细致雕琢 效能与设计de完美结合</p>
+        </span>
+        <img src="/upload/201504/20/201504200341260763.jpg" />
+      </a>
+      
+    </div>
+    <div class="main-right">
+      <ul class="img-list ilist">
+        
+        <li>
+          <a title="三星（SAMSUNG）UA40HU5920JXXZ 40英寸4K超高清" href="/goods/show-97.html">
+            
+            <span class="abs-bg"></span>
+            <span class="price">
+              <i>¥3599.00</i>
+              <b>¥</b>3299.00
+            </span>
+            <span class="protxt">三星（SAMSUNG）UA40HU5920JXXZ 40英寸4K超高清</span>
+            <img src="/upload/201504/20/thumb_201504200258403759.jpg" />
+          </a>
+        </li>
+        
+        <li>
+          <a title="联想（Lenovo） G510AM 15.6英寸笔记本电脑" href="/goods/show-92.html">
+            
+            <span class="abs-bg"></span>
+            <span class="price">
+              <i>¥4599.00</i>
+              <b>¥</b>2999.00
+            </span>
+            <span class="protxt">联想（Lenovo） G510AM 15.6英寸笔记本电脑</span>
+            <img src="/upload/201504/20/thumb_201504200225107390.jpg" />
+          </a>
+        </li>
+        
+        <li>
+          <a title="佳能（Canon） EOS 700D 单反套机" href="/goods/show-90.html">
+            
+            <span class="abs-bg"></span>
+            <span class="price">
+              <i>¥5099.00</i>
+              <b>¥</b>4799.00
+            </span>
+            <span class="protxt">佳能（Canon） EOS 700D 单反套机</span>
+            <img src="/upload/201504/20/thumb_201504200154277661.jpg" />
+          </a>
+        </li>
+        
+        <li>
+          <a title="小米（Mi）小米Note 16G双网通版" href="/goods/show-89.html">
+            
+            <span class="abs-bg"></span>
+            <span class="price">
+              <i>¥2699.00</i>
+              <b>¥</b>2299.00
+            </span>
+            <span class="protxt">小米（Mi）小米Note 16G双网通版</span>
+            <img src="/upload/201504/20/thumb_201504200119256512.jpg" />
+          </a>
+        </li>
+        
+        <li>
+          <a title="苹果Apple iPhone 6 Plus 16G 4G手机（联通三网版）" href="/goods/show-88.html">
+            
+            <span class="abs-bg"></span>
+            <span class="price">
+              <i>¥6388.00</i>
+              <b>¥</b>5780.00
+            </span>
+            <span class="protxt">苹果Apple iPhone 6 Plus 16G 4G手机（联通三网版）</span>
+            <img src="/upload/201504/20/thumb_201504200059017695.jpg" />
+          </a>
+        </li>
+        
+        <li>
+          <a title="华为（HUAWEI）荣耀6Plus 16G双4G版" href="/goods/show-87.html">
+            
+            <span class="abs-bg"></span>
+            <span class="price">
+              <i>¥2499.00</i>
+              <b>¥</b>2195.00
+            </span>
+            <span class="protxt">华为（HUAWEI）荣耀6Plus 16G双4G版</span>
+            <img src="/upload/201504/20/thumb_201504200046589514.jpg" />
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section clearfix">
+  <div class="ntitle">
+    <h2>
+      <a href="/video.html">视频专区<em></em></a>
+    </h2>
+    <p>
+      <!--类别-->
+      
+      <a class="no-bg" href="/video/29.html">电视剧</a>
+      
+      <a href="/video/30.html">电影</a>
+      
+      <a href="/video/31.html">综艺</a>
+      
+      <!--/类别-->
+    </p>
+  </div>
+  <div class="wrapper clearfix">
+    <div class="main-left ilist">
+      
+      <a title="熊出没之雪岭熊风" href="/video/show-81.html">
+        <em></em>
+        <span class="abs-bg"></span>
+        <span class="txt1">熊出没之雪岭熊风</span>
+        <span class="txt2">
+          <p>2015年1月30日在中国上映</p>
+        </span>
+        <img src="/upload/201504/19/201504191509158578.jpg" />
+      </a>
+      
+    </div>
+    <div class="main-right">
+      <ul class="img-list ilist">
+        
+        <li>
+          <a title="奔跑吧兄弟" href="/video/show-83.html">
+            <em></em>
+            <span class="abs-bg"></span>
+            <span class="txt1">奔跑吧兄弟</span>
+            <span class="txt2">
+              <p>大型户外竞技真人秀节目</p>
+            </span>
+            <img src="/upload/201504/19/201504191612121323.jpg" />
+          </a>
+        </li>
+        
+        <li>
+          <a title="星梦奇缘" href="/video/show-82.html">
+            <em></em>
+            <span class="abs-bg"></span>
+            <span class="txt1">星梦奇缘</span>
+            <span class="txt2">
+              <p>马玲蹲守男生宿舍大胆告白 为爱跳泳池换取求爱机会</p>
+            </span>
+            <img src="/upload/201504/19/201504191553366190.jpg" />
+          </a>
+        </li>
+        
+        <li>
+          <a title="绿灯侠" href="/video/show-80.html">
+            <em></em>
+            <span class="abs-bg"></span>
+            <span class="txt1">绿灯侠</span>
+            <span class="txt2">
+              <p>2011年6月17日美国上映</p>
+            </span>
+            <img src="/upload/201504/19/201504191502166718.jpg" />
+          </a>
+        </li>
+        
+        <li>
+          <a title="有种你爱我" href="/video/show-78.html">
+            <em></em>
+            <span class="abs-bg"></span>
+            <span class="txt1">有种你爱我</span>
+            <span class="txt2">
+              <p>主演：江一燕 / 郑恺</p>
+            </span>
+            <img src="/upload/201504/19/201504191438024482.jpg" />
+          </a>
+        </li>
+        
+        <li>
+          <a title="绿箭侠第三季" href="/video/show-72.html">
+            <em></em>
+            <span class="abs-bg"></span>
+            <span class="txt1">绿箭侠第三季</span>
+            <span class="txt2">
+              <p>更新至19集</p>
+            </span>
+            <img src="/upload/201504/19/201504191354133349.jpg" />
+          </a>
+        </li>
+        
+        <li>
+          <a title="闪电侠第一季" href="/video/show-71.html">
+            <em></em>
+            <span class="abs-bg"></span>
+            <span class="txt1">闪电侠第一季</span>
+            <span class="txt2">
+              <p>更新至18集</p>
+            </span>
+            <img src="/upload/201504/19/201504191342113486.jpg" />
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section clearfix">
+  <div class="ntitle">
+    <h2>
+      <a href="/photo.html">图片分享<em></em></a>
+    </h2>
+    <p>
+      <!--类别-->
+      
+      <a class="no-bg" href="/photo/14.html">家居生活</a>
+      
+      <a href="/photo/15.html">摄影设计</a>
+      
+      <a href="/photo/16.html">明星美女</a>
+      
+      <!--/类别-->
+    </p>
+  </div>
+  <div class="wrapper clearfix">
+    <div class="photo-list ilist">
+      <ul>
+        
+        <li class="col-1">
+          <a title="昆凌最新大片" href="/photo/show-53.html">
+            <span class="abs-bg"></span>
+            <span class="txt1">昆凌最新大片</span>
+            <span class="txt2">
+              <p>2015-04-18 14:31:43</p>
+            </span>
+            <img src="/upload/201504/18/thumb_201504181431411505.jpg" />
+          </a>
+        </li>
+        
+        <li class="col-2">
+          <a title="清新有活力的公寓设计 用色彩焕然一新" href="/photo/show-43.html">
+            <span class="abs-bg"></span>
+            <span class="txt1">清新有活力的公寓设计 用色彩焕然一新</span>
+            <span class="txt2">
+              <p>2015-04-18 12:59:12</p>
+            </span>
+            <img src="/upload/201504/18/thumb_201504181258575445.jpg" />
+          </a>
+        </li>
+        
+        <li class="col-3">
+          <a title="100平米田园雅居三口之家 自然舒适空间" href="/photo/show-42.html">
+            <span class="abs-bg"></span>
+            <span class="txt1">100平米田园雅居三口之家 自然舒适空间</span>
+            <span class="txt2">
+              <p>2015-04-18 12:55:58</p>
+            </span>
+            <img src="/upload/201504/18/thumb_201504181255546022.jpg" />
+          </a>
+        </li>
+        
+        <li class="col-4">
+          <a title="欧式风格继承了巴洛克风格中豪华、动感、多变的视觉效果" href="/photo/show-40.html">
+            <span class="abs-bg"></span>
+            <span class="txt1">欧式风格继承了巴洛克风格中豪华、动感、多变的视觉效果</span>
+            <span class="txt2">
+              <p>2015-04-18 12:46:50</p>
+            </span>
+            <img src="/upload/201504/18/thumb_201504181246376332.jpg" />
+          </a>
+        </li>
+        
+        <li class="col-5">
+          <a title="西班牙阿拉尔孔郊区的80平米一室一厅的公寓" href="/photo/show-39.html">
+            <span class="abs-bg"></span>
+            <span class="txt1">西班牙阿拉尔孔郊区的80平米一室一厅的公寓</span>
+            <span class="txt2">
+              <p>2015-04-18 12:41:37</p>
+            </span>
+            <img src="/upload/201504/18/thumb_201504181241259978.jpg" />
+          </a>
+        </li>
+        
+        <li class="col-6">
+          <a title="很美的落地大书柜 可以放超多的图书的吧" href="/photo/show-38.html">
+            <span class="abs-bg"></span>
+            <span class="txt1">很美的落地大书柜 可以放超多的图书的吧</span>
+            <span class="txt2">
+              <p>2015-04-18 12:37:18</p>
+            </span>
+            <img src="/upload/201504/18/thumb_201504181237019134.jpg" />
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section clearfix">
+  <div class="ntitle">
+    <h2>
+      <a href="/down.html">资源下载<em></em></a>
+    </h2>
+    <p>
+      <!--类别-->
+      
+      <a class="no-bg" href="/down/26.html">JS代码</a>
+      
+      <a href="/down/27.html">PSD素材</a>
+      
+      <a href="/down/28.html">网页素材</a>
+      
+      <!--/类别-->
+    </p>
+  </div>
+  <div class="wrapper clearfix">
+    <ul class="img-list high ilist">
+      
+      <li>
+        <a title="腾讯游戏盒子2013官网页面html代码" href="/down/show-66.html">
+          <div class="img-box">
+            <img src="/upload/201504/19/201504190052499389.png" />
+          </div>
+          <div class="info">
+            <h3>腾讯游戏盒子2013官网页面html代码</h3>
+            <span>
+              <i>下载：<script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_attach_count&id=66&view=count"></script>次</i>
+              <p>2015-04-19</p>
+            </span>
+          </div>
+        </a>
+      </li>
+      
+      <li>
+        <a title="30个IOS7风格简洁线条图标PSD素材" href="/down/show-65.html">
+          <div class="img-box">
+            <img src="/upload/201504/19/201504190047488297.png" />
+          </div>
+          <div class="info">
+            <h3>30个IOS7风格简洁线条图标PSD素材</h3>
+            <span>
+              <i>下载：<script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_attach_count&id=65&view=count"></script>次</i>
+              <p>2015-04-19</p>
+            </span>
+          </div>
+        </a>
+      </li>
+      
+      <li>
+        <a title="六边形上传按钮PSD源文件下载" href="/down/show-63.html">
+          <div class="img-box">
+            <img src="/upload/201504/19/201504190033256767.png" />
+          </div>
+          <div class="info">
+            <h3>六边形上传按钮PSD源文件下载</h3>
+            <span>
+              <i>下载：<script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_attach_count&id=63&view=count"></script>次</i>
+              <p>2015-04-19</p>
+            </span>
+          </div>
+        </a>
+      </li>
+      
+      <li>
+        <a title="ck_slide – 简单的jQuery幻灯片插件" href="/down/show-60.html">
+          <div class="img-box">
+            <img src="/upload/201504/18/201504182357178753.jpg" />
+          </div>
+          <div class="info">
+            <h3>ck_slide – 简单的jQuery幻灯片插件</h3>
+            <span>
+              <i>下载：<script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_attach_count&id=60&view=count"></script>次</i>
+              <p>2015-04-18</p>
+            </span>
+          </div>
+        </a>
+      </li>
+      
+      <li>
+        <a title="jqueryrotate制作机锋网积分抽奖效果" href="/down/show-57.html">
+          <div class="img-box">
+            <img src="/upload/201504/18/201504182324354376.jpg" />
+          </div>
+          <div class="info">
+            <h3>jqueryrotate制作机锋网积分抽奖效果</h3>
+            <span>
+              <i>下载：<script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_attach_count&id=57&view=count"></script>次</i>
+              <p>2015-04-18</p>
+            </span>
+          </div>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="section clearfix">
+  <div class="ntitle">
+    <h2>
+      <a href="/link.html">友情链接<em></em></a>
+    </h2>
+    <p>
+      <a class="no-bg" href="/link.html">申请链接</a>
+    </p>
+  </div>
+  <div class="wrapper link-box">
+    <div class="txt">
+      
+        <a target="_blank" href="http://www.dtsoft.net">动力启航</a> | 
+      
+        <a target="_blank" href="http://www.kuaidi100.com">快递查询</a> | 
+      
+        <a target="_blank" href="http://www.ckplayer.com">ckplayer视频播放器</a> | 
+      
+        <a target="_blank" href="http://www.leiphone.com">雷锋网</a> | 
+      
+        <a target="_blank" href="http://www.mydrivers.com">驱动之家</a> | 
+      
+        <a target="_blank" href="http://www.chinaitlab.com">中国IT实验室</a> | 
+      
+        <a target="_blank" href="http://www.ithome.com">IT之家</a> | 
+      
+        <a target="_blank" href="http://www.discuz.net">Discuz社区</a> | 
+      
+        <a target="_blank" href="http://code.ciaoca.com">前端开发仓库</a> | 
+      
+        <a target="_blank" href="http://www.dowebok.com">dowebok</a> | 
+      
+        <a target="_blank" href="http://www.jquery.com">JQuery</a> | 
+      
+        <a target="_blank" href="http://www.game798.com">游艺网</a> | 
+      
+        <a target="_blank" href="http://www.ivsky.com">天堂图片</a> | 
+      
+        <a target="_blank" href="http://www.deskcity.com">桌面城市</a> | 
+      
+        <a target="_blank" href="http://www.hxsd.com.cn">火星网</a> | 
+      
+        <a target="_blank" href="http://www.chndesign.com">包装设计网</a> | 
+      
+        <a target="_blank" href="http://kankan.meitu.com">美图看看</a> | 
+      
+        <a target="_blank" href="http://www.shijue.me">视觉中国</a> | 
+      
+        <a target="_blank" href="http://www.uimaker.com">UI制造者</a> | 
+      
+        <a target="_blank" href="http://www.sj63.com">设计路上</a> | 
+      
+        <a target="_blank" href="http://www.chahua.org">插画中国</a> | 
+      
+        <a target="_blank" href="http://www.cndu.cn">设计联盟</a> | 
+      
+        <a target="_blank" href="http://www.sucaitianxia.com">素材天下</a> | 
+      
+        <a target="_blank" href="http://www.easyicon.net/">图标下载</a> | 
+      
+        <a target="_blank" href="http://www.boxui.com">盒子UI设计</a> | 
+      
+    </div>
+    <ul class="img">
+      
+        <li><a target="_blank" href="http://www.blueidea.com" title="蓝色理想"><img src="http://www.blueidea.com/logo.gif" /></a></li>
+      
+        <li><a target="_blank" href="http://ued.baidu.com" title="百度搜索用户体验中心"><img src="http://cdc.tencent.com/wp-content/uploads/2015/02/ued.baidu_.com_.jpg" /></a></li>
+      
+        <li><a target="_blank" href="http://www.visionunion.com" title="视觉同盟"><img src="http://www.visionunion.com/help/images/vu_logo.gif" /></a></li>
+      
+        <li><a target="_blank" href="http://cdc.tencent.com" title="腾讯CDC"><img src="http://cdc.tencent.com/wp-content/uploads/cdc_logo.gif" /></a></li>
+      
+        <li><a target="_blank" href="http://www.lanrentuku.com" title="懒人图库"><img src="http://img.lanrentuku.com/img/images/logo88x31.gif" /></a></li>
+      
+        <li><a target="_blank" href="http://www.51aspx.com" title="我要源码站"><img src="http://img.51aspx.com/p/images/logo_88x31.gif" /></a></li>
+      
+        <li><a target="_blank" href="http://www.chinaz.com" title="中国站长网"><img src="http://www.chinaz.com/images/chinaz.gif" /></a></li>
+      
+        <li><a target="_blank" href="http://www.dukeji.com" title="读科技"><img src="http://www.dukeji.com/Content/themes/base/CMS/images/logo.jpg" /></a></li>
+      
+        <li><a target="_blank" href="http://www.maticsoft.com" title="动软中国"><img src="http://www.maticsoft.com/images/logo/logo12.gif" /></a></li>
+      
+    </ul>
+  </div>
+</div>
+
+<!--Footer-->
+<div class="footer clearfix">
+  <div class="foot-nav">
+    <a target="_blank" href="/index.html">首 页</a>|
+    <a target="_blank" href="/content/about.html">关于我们</a>|
+    <a target="_blank" href="/news/index.html">新闻资讯</a>|
+    <a target="_blank" href="/goods.html">购物商城</a>|
+    <a target="_blank" href="/video.html">视频专区</a>|
+    <a target="_blank" href="/down.html">资源下载</a>|
+    <a target="_blank" href="/photo.html">图片分享</a>|
+    <a target="_blank" href="/feedback.html">留言反馈</a>|
+    <a target="_blank" href="/link.html">友情链接</a>|
+    <a target="_blank" href="/content/contact.html">联系我们</a>
+  </div>
+  <div class="copyright">
+    <p>版权所有 深圳市动力启航软件有限公司 粤ICP备11064298号 DTcms版本号：4.0.3</p>
+    <p>Copyright &copy; 2009-2015 dtcms.net Corporation,All Rights Reserved.</p>
+    <p><script src="http://s24.cnzz.com/stat.php?id=1996164&web_id=1996164&show=pic" language="javascript"></script></p>
+  </div>
+</div>
+<!--/Footer-->
+</body>
+</html>

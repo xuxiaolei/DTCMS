@@ -1,0 +1,334 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>所有新闻 - DTcms内容管理系统</title>
+
+<link href="/css/pagination.css" rel="stylesheet" />
+<link href="/templates/main/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" charset="utf-8" src="/scripts/jquery/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/templates/main/js/common.js"></script>
+</head>
+
+<body>
+<!--Header-->
+<div class="header">
+  <div class="header-wrap">
+    <div class="section">
+      <div class="left-box">
+        <a class="logo" href="/index.html">DTcms内容管理系统</a>
+        <p class="nav">
+          <a href="/news/index.html">资讯</a>
+          <a href="/goods.html">商城</a>
+          <a href="/video.html">视频</a>
+          <a href="/photo.html">图片</a>
+          <a href="/down.html">下载</a>
+        </p>
+      </div>
+      <div class="search">
+        <input id="keywords" name="keywords" class="input" type="text" onkeydown="if(event.keyCode==13){SiteSearch('/search.html', '#keywords');return false};" placeholder="输入回车搜索" x-webkit-speech="" />
+        <input class="submit" type="submit" onclick="SiteSearch('/search.html', '#keywords');" value="搜索" />
+      </div>
+      <div class="right-box">
+      <script type="text/javascript">
+			$.ajax({
+				type: "POST",
+				url: "/tools/submit_ajax.ashx?action=user_check_login",
+				dataType: "json",
+				timeout: 20000,
+				success: function (data, textStatus) {
+					if (data.status == 1) {
+						$("#menu").prepend('<li class="line"><a href="/user/center/exit.html">退出</a></li>');
+						$("#menu").prepend('<li class="login"><em></em><a href="/user/center/index.html">会员中心</a></li>');
+					} else {
+						$("#menu").prepend('<li class="line"><a href="/register.html">注册</a></li>');
+						$("#menu").prepend('<li class="login"><em></em><a href="/login.html">登录</a></li>');
+					}
+				}
+			});
+		</script>
+        <ul id="menu">
+          <li>
+            <a href="/cart.html">购物车<span id="shoppingCartCount"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_cart_count"></script></span>件</a>
+          </li>
+          <li><a href="/content/contact.html">联系我们</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/Header-->
+
+<div class="section clearfix">
+  <div class="ntitle">
+    <h2>
+      <a href="javascript:;">所有新闻</a>
+    </h2>
+    <span>当前位置：<a href="/index.html">首页</a> &gt; <a href="/news/index.html">新闻资讯</a></span>
+  </div>
+  
+  <!--右边-->
+  <div class="list-right">
+    <div class="sidebar-box">
+      <div class="line30"></div>
+      <h3>资讯类别</h3>
+      <ul class="navbar">
+        
+        <li>
+          <h4><a href="/news/3.html">互联网媒体</a></h4>
+          <p>
+            
+            <a href="/news/6.html">人物动态</a>
+            
+            <a href="/news/7.html">电子商务</a>
+            
+            <a href="/news/8.html">传闻爆料</a>
+            
+          </p>
+        </li>
+        
+        <li>
+          <h4><a href="/news/4.html">科技财经</a></h4>
+          <p>
+            
+            <a href="/news/9.html">IT业界</a>
+            
+            <a href="/news/10.html">经济民生</a>
+            
+            <a href="/news/11.html">数码产品</a>
+            
+          </p>
+        </li>
+        
+        <li>
+          <h4><a href="/news/5.html">汽车房产</a></h4>
+          <p>
+            
+            <a href="/news/12.html">新车行情</a>
+            
+            <a href="/news/13.html">房产动态</a>
+            
+          </p>
+        </li>
+        
+      </ul>
+      <div class="line20"></div>
+      <h3>推荐资讯</h3>
+      <div class="focus-list">
+        <ul>
+          
+          <li>
+            <a title="中国首个东盟电子商务平台“美丽湾”启动" href="/news/show-27.html">
+              <b><img src="/upload/201504/17/201504170015481462.jpg" /></b>
+              <span>中国首个东盟电子商务平台“美丽湾”启动</span>
+            </a>
+          </li>
+          
+          <li>
+            <a title="电商下乡，京东、苏宁、阿里农村遭遇战打响？" href="/news/show-23.html">
+              <b><img src="/upload/201504/16/201504161329185965.jpg" /></b>
+              <span>电商下乡，京东、苏宁、阿里农村遭遇战打响？</span>
+            </a>
+          </li>
+          
+          <li>
+            <a title="买房还是炒股，2015年买房无法拒绝的5大理由" href="/news/show-14.html">
+              <b><img src="/upload/201504/16/201504161205596364.jpg" /></b>
+              <span>买房还是炒股，2015年买房无法拒绝的5大理由</span>
+            </a>
+          </li>
+          
+          <li>
+            <a title="1季度多家房企利润跌幅超50% 去库存促销战打响" href="/news/show-13.html">
+              <b><img src="/upload/201504/16/201504161149414479.jpg" /></b>
+              <span>1季度多家房企利润跌幅超50% 去库存促销战打响</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="line10"></div>
+      <h3>人气排行</h3>
+      <ul class="rank-list">
+        
+        <li class="active">
+        
+          <span>04-17</span>
+          <i class="num">1</i><a href="/news/show-32.html">深圳限购限行后首次公车拍卖 近三成流拍</a>
+        </li>
+        
+        <li>
+        
+          <span>04-17</span>
+          <i class="num">2</i><a href="/news/show-29.html">淘宝严厉打击刷单行为 三家网店虚假交易受罚关门</a>
+        </li>
+        
+        <li>
+        
+          <span>04-17</span>
+          <i class="num">3</i><a href="/news/show-27.html">中国首个东盟电子商务平台“美丽湾”启动</a>
+        </li>
+        
+        <li>
+        
+          <span>04-16</span>
+          <i class="num">4</i><a href="/news/show-23.html">电商下乡，京东、苏宁、阿里农村遭遇战打响？</a>
+        </li>
+        
+        <li>
+        
+          <span>04-16</span>
+          <i class="num">5</i><a href="/news/show-26.html">走小米的路子就想颠覆苹果？乐视君，你还是醒醒吧</a>
+        </li>
+        
+        <li>
+        
+          <span>04-16</span>
+          <i class="num">6</i><a href="/news/show-25.html">小米董事长雷军：手把手教你做新电商</a>
+        </li>
+        
+        <li>
+        
+          <span>04-16</span>
+          <i class="num">7</i><a href="/news/show-22.html">58同城与赶集网最快今日将宣布合并</a>
+        </li>
+        
+        <li>
+        
+          <span>04-17</span>
+          <i class="num">8</i><a href="/news/show-28.html">普通美国人怎么看 Apple Watch？</a>
+        </li>
+        
+        <li>
+        
+          <span>04-16</span>
+          <i class="num">9</i><a href="/news/show-24.html">易车总裁邵京宁：汽车行业电商化的三个阶段</a>
+        </li>
+        
+        <li>
+        
+          <span>04-16</span>
+          <i class="num">10</i><a href="/news/show-17.html">哈弗H6 比亚迪S7 长安CS75怎么样 看看车主说法</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+  </div>
+  <!--/右边-->
+  
+  <!--左边-->
+  <div class="list-auto">
+    <ul class="n-list">
+      <!--取得一个分页DataTable-->
+      
+      <li>
+        <h2><a href="/news/show-24.html">易车总裁邵京宁：汽车行业电商化的三个阶段</a></h2>
+        <div class="note">
+          
+          <b><img src="/upload/201504/16/201504161336598829.jpg" /></b>
+          
+          <p>易车总裁邵京宁在艾瑞年度高峰会议上表示，汽车行业作为一个体量大且精英化的行业，与互联网的结合较其他行业相比更为缓慢。邵京宁认为，汽车作为一个拥有百年历史的重要的民用固造产业，拥有很深的制造业思维，是非常“骄傲和顽固”的，这造成了与互联网融合的缓慢。易车对国…</p>
+          <div class="info">
+            <span class="time">2015-04-16 13:37:49</span>
+            <span class="comm"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_comment_count&id=24"></script>人评论</span>
+            <span class="view"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_article_click&id=24"></script>次浏览</span>
+          </div>
+        </div>
+      </li>
+      
+      <li>
+        <h2><a href="/news/show-23.html">电商下乡，京东、苏宁、阿里农村遭遇战打响？</a></h2>
+        <div class="note">
+          
+          <b><img src="/upload/201504/16/201504161329185965.jpg" /></b>
+          
+          <p>2015年，各大电商逐鹿广袤的农村市场，一场圈地运动正在上演，焦点之战在家电市场首先展开。4月9日，京东公布农村电商发展的阶段性成果，其中定位于农村大家电营销、配送、安装、维修的京东帮服务店表现抢眼——4个月时间，开设了超过…</p>
+          <div class="info">
+            <span class="time">2015-04-16 13:29:20</span>
+            <span class="comm"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_comment_count&id=23"></script>人评论</span>
+            <span class="view"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_article_click&id=23"></script>次浏览</span>
+          </div>
+        </div>
+      </li>
+      
+      <li>
+        <h2><a href="/news/show-22.html">58同城与赶集网最快今日将宣布合并</a></h2>
+        <div class="note">
+          
+          <b><img src="/upload/201504/16/201504161303162262.jpg" /></b>
+          
+          <p>北京时间4月16日消息，腾讯科技通过可靠渠道获知，58同城与赶集网将正式合并，消息最快将于今天公布。此前，据外媒援引消息人士称，58同城和赶集网合并后的新公司估值最高将达到100亿美元。58同城和赶集网都成立于2005年，分类信息平台的模式使得双方在创立后的多年里基本处于…</p>
+          <div class="info">
+            <span class="time">2015-04-16 13:02:30</span>
+            <span class="comm"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_comment_count&id=22"></script>人评论</span>
+            <span class="view"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_article_click&id=22"></script>次浏览</span>
+          </div>
+        </div>
+      </li>
+      
+      <li>
+        <h2><a href="/news/show-21.html">假宽带频现 什么是真正的光纤宽带？</a></h2>
+        <div class="note">
+          
+          <b><img src="/upload/201504/16/201504161258558786.jpg" /></b>
+          
+          <p>&amp;emsp;&amp;emsp;OFweek光通讯网讯 宽带已经是大家日常生活必不可少的必须品，也是国民经济的基础建设。不过大家会不会经常有这样的感觉，各大商家打出来的广告十分诱人，超低的价格，超高的带宽。可是越来越多的人发现，在办理了所谓的超高带宽的光纤宽带之后，网速却没有…</p>
+          <div class="info">
+            <span class="time">2015-04-16 12:59:15</span>
+            <span class="comm"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_comment_count&id=21"></script>人评论</span>
+            <span class="view"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_article_click&id=21"></script>次浏览</span>
+          </div>
+        </div>
+      </li>
+      
+      <li>
+        <h2><a href="/news/show-20.html">乐视手机遭疯狂吐槽 忽不忽悠看了再说</a></h2>
+        <div class="note">
+          
+          <b><img src="/upload/201504/16/201504161254335201.jpg" /></b>
+          
+          <p>昨天，乐视发布了3款手机，乐1、乐1Pro和乐Max，定价分别为1499、2499，乐Max采用全民定价尚未披露价格。一时间，乐视网[0.17% 资金 研报]和贾跃亭再次被推上风口。这年头，传统的制造企业转型造手机屡见不鲜,不可否认，这是一个门槛很低的行业，乐视发布其手机虽是意料之中，…</p>
+          <div class="info">
+            <span class="time">2015-04-16 12:54:35</span>
+            <span class="comm"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_comment_count&id=20"></script>人评论</span>
+            <span class="view"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_article_click&id=20"></script>次浏览</span>
+          </div>
+        </div>
+      </li>
+      
+    </ul>
+    
+    <!--页码列表-->
+    <div class="page-box">
+      <div class="digg"><span>共22记录</span><a href="/news/index-page-2.html">上一页</a><a href="/news/index-page-1.html">1</a><a href="/news/index-page-2.html">2</a><span class="current">3</span><a href="/news/index-page-4.html">4</a><a href="/news/index-page-5.html">5</a><a href="/news/index-page-4.html">下一页</a></div>
+    </div>
+    <!--/页码列表-->
+  </div>
+  <!--/左边-->
+
+</div>
+
+<!--Footer-->
+<div class="footer clearfix">
+  <div class="foot-nav">
+    <a target="_blank" href="/index.html">首 页</a>|
+    <a target="_blank" href="/content/about.html">关于我们</a>|
+    <a target="_blank" href="/news/index.html">新闻资讯</a>|
+    <a target="_blank" href="/goods.html">购物商城</a>|
+    <a target="_blank" href="/video.html">视频专区</a>|
+    <a target="_blank" href="/down.html">资源下载</a>|
+    <a target="_blank" href="/photo.html">图片分享</a>|
+    <a target="_blank" href="/feedback.html">留言反馈</a>|
+    <a target="_blank" href="/link.html">友情链接</a>|
+    <a target="_blank" href="/content/contact.html">联系我们</a>
+  </div>
+  <div class="copyright">
+    <p>版权所有 深圳市动力启航软件有限公司 粤ICP备11064298号 DTcms版本号：4.0.3</p>
+    <p>Copyright &copy; 2009-2015 dtcms.net Corporation,All Rights Reserved.</p>
+    <p><script src="http://s24.cnzz.com/stat.php?id=1996164&web_id=1996164&show=pic" language="javascript"></script></p>
+  </div>
+</div>
+<!--/Footer-->
+</body>
+</html>

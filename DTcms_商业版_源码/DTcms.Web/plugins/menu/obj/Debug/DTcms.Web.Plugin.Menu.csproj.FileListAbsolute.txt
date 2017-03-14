@@ -1,0 +1,35 @@
+F:\DTcms_40_sql_src (2015-11-12)\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.csprojResolveAssemblyReference.cache
+F:\DTcms_40_sql_src (2015-11-12)\DTcms.Web\bin\DTcms.Web.Plugin.Menu.dll
+F:\DTcms_40_sql_src (2015-11-12)\DTcms.Web\bin\DTcms.Web.Plugin.Menu.pdb
+F:\DTcms_40_sql_src (2015-11-12)\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.dll
+F:\DTcms_40_sql_src (2015-11-12)\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.pdb
+F:\DTcms_商业版\DTcms.Web\bin\DTcms.Web.Plugin.Menu.dll
+F:\DTcms_商业版\DTcms.Web\bin\DTcms.Web.Plugin.Menu.pdb
+F:\DTcms_商业版\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.csprojResolveAssemblyReference.cache
+F:\DTcms_商业版\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.dll
+F:\DTcms_商业版\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.pdb
+G:\DTcms_商业版\DTcms.Web\bin\DTcms.Web.Plugin.Menu.dll
+G:\DTcms_商业版\DTcms.Web\bin\DTcms.Web.Plugin.Menu.pdb
+G:\DTcms_商业版\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.dll
+G:\DTcms_商业版\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.pdb
+G:\DTcms_商业版\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.csprojResolveAssemblyReference.cache
+G:\DTcms_商业版(新增网点ID)\DTcms.Web\bin\DTcms.Web.Plugin.Menu.dll
+G:\DTcms_商业版(新增网点ID)\DTcms.Web\bin\DTcms.Web.Plugin.Menu.pdb
+G:\DTcms_商业版(新增网点ID)\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.csprojResolveAssemblyReference.cache
+G:\DTcms_商业版(新增网点ID)\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.dll
+G:\DTcms_商业版(新增网点ID)\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.pdb
+F:\DTcms_商业版(新增网点ID)\DTcms.Web\bin\DTcms.Web.Plugin.Menu.dll
+F:\DTcms_商业版(新增网点ID)\DTcms.Web\bin\DTcms.Web.Plugin.Menu.pdb
+F:\DTcms_商业版(新增网点ID)\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.csprojResolveAssemblyReference.cache
+F:\DTcms_商业版(新增网点ID)\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.dll
+F:\DTcms_商业版(新增网点ID)\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.pdb
+F:\DTcms_商业版_源码\DTcms.Web\bin\DTcms.Web.Plugin.Menu.dll
+F:\DTcms_商业版_源码\DTcms.Web\bin\DTcms.Web.Plugin.Menu.pdb
+F:\DTcms_商业版_源码\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.csprojResolveAssemblyReference.cache
+F:\DTcms_商业版_源码\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.dll
+F:\DTcms_商业版_源码\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.pdb
+G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\bin\DTcms.Web.Plugin.Menu.dll
+G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\bin\DTcms.Web.Plugin.Menu.pdb
+G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.csprojResolveAssemblyReference.cache
+G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.dll
+G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\plugins\menu\obj\Debug\DTcms.Web.Plugin.Menu.pdb

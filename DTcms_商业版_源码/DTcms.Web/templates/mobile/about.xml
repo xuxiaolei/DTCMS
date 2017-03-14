@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<template>
+	<version>4.0.3</version>
+	<preview>about.png</preview>
+	<name>手机触屏版</name>
+	<demo>http://m.dtcms.net/</demo>
+	<author>一些事情</author>
+	<website>http://www.dtcms.net/</website>
+	<description>V4.0版本</description>
+	<createdate>2015-4-20</createdate>
+</template>

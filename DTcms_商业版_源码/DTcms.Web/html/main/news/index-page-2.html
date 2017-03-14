@@ -1,0 +1,326 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>所有新闻 - DTcms内容管理系统</title>
+
+<link href="/css/pagination.css" rel="stylesheet" />
+<link href="/templates/main/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" charset="utf-8" src="/scripts/jquery/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/templates/main/js/common.js"></script>
+</head>
+
+<body>
+<!--Header-->
+<div class="header">
+  <div class="header-wrap">
+    <div class="section">
+      <div class="left-box">
+        <a class="logo" href="/index.html">DTcms内容管理系统</a>
+        <p class="nav">
+          <a href="/news/index.html">资讯</a>
+          <a href="/goods.html">商城</a>
+          <a href="/video.html">视频</a>
+          <a href="/photo.html">图片</a>
+          <a href="/down.html">下载</a>
+        </p>
+      </div>
+      <div class="search">
+        <input id="keywords" name="keywords" class="input" type="text" onkeydown="if(event.keyCode==13){SiteSearch('/search.html', '#keywords');return false};" placeholder="输入回车搜索" x-webkit-speech="" />
+        <input class="submit" type="submit" onclick="SiteSearch('/search.html', '#keywords');" value="搜索" />
+      </div>
+      <div class="right-box">
+      <script type="text/javascript">
+			$.ajax({
+				type: "POST",
+				url: "/tools/submit_ajax.ashx?action=user_check_login",
+				dataType: "json",
+				timeout: 20000,
+				success: function (data, textStatus) {
+					if (data.status == 1) {
+						$("#menu").prepend('<li class="line"><a href="/user/center/exit.html">退出</a></li>');
+						$("#menu").prepend('<li class="login"><em></em><a href="/user/center/index.html">会员中心</a></li>');
+					} else {
+						$("#menu").prepend('<li class="line"><a href="/register.html">注册</a></li>');
+						$("#menu").prepend('<li class="login"><em></em><a href="/login.html">登录</a></li>');
+					}
+				}
+			});
+		</script>
+        <ul id="menu">
+          <li>
+            <a href="/cart.html">购物车<span id="shoppingCartCount"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_cart_count"></script></span>件</a>
+          </li>
+          <li><a href="/content/contact.html">联系我们</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/Header-->
+
+<div class="section clearfix">
+  <div class="ntitle">
+    <h2>
+      <a href="javascript:;">所有新闻</a>
+    </h2>
+    <span>当前位置：<a href="/index.html">首页</a> &gt; <a href="/news/index.html">新闻资讯</a></span>
+  </div>
+  
+  <!--右边-->
+  <div class="list-right">
+    <div class="sidebar-box">
+      <div class="line30"></div>
+      <h3>资讯类别</h3>
+      <ul class="navbar">
+        
+        <li>
+          <h4><a href="/news/3.html">互联网媒体</a></h4>
+          <p>
+            
+            <a href="/news/6.html">人物动态</a>
+            
+            <a href="/news/7.html">电子商务</a>
+            
+            <a href="/news/8.html">传闻爆料</a>
+            
+          </p>
+        </li>
+        
+        <li>
+          <h4><a href="/news/4.html">科技财经</a></h4>
+          <p>
+            
+            <a href="/news/9.html">IT业界</a>
+            
+            <a href="/news/10.html">经济民生</a>
+            
+            <a href="/news/11.html">数码产品</a>
+            
+          </p>
+        </li>
+        
+        <li>
+          <h4><a href="/news/5.html">汽车房产</a></h4>
+          <p>
+            
+            <a href="/news/12.html">新车行情</a>
+            
+            <a href="/news/13.html">房产动态</a>
+            
+          </p>
+        </li>
+        
+      </ul>
+      <div class="line20"></div>
+      <h3>推荐资讯</h3>
+      <div class="focus-list">
+        <ul>
+          
+          <li>
+            <a title="中国首个东盟电子商务平台“美丽湾”启动" href="/news/show-27.html">
+              <b><img src="/upload/201504/17/201504170015481462.jpg" /></b>
+              <span>中国首个东盟电子商务平台“美丽湾”启动</span>
+            </a>
+          </li>
+          
+          <li>
+            <a title="电商下乡，京东、苏宁、阿里农村遭遇战打响？" href="/news/show-23.html">
+              <b><img src="/upload/201504/16/201504161329185965.jpg" /></b>
+              <span>电商下乡，京东、苏宁、阿里农村遭遇战打响？</span>
+            </a>
+          </li>
+          
+          <li>
+            <a title="买房还是炒股，2015年买房无法拒绝的5大理由" href="/news/show-14.html">
+              <b><img src="/upload/201504/16/201504161205596364.jpg" /></b>
+              <span>买房还是炒股，2015年买房无法拒绝的5大理由</span>
+            </a>
+          </li>
+          
+          <li>
+            <a title="1季度多家房企利润跌幅超50% 去库存促销战打响" href="/news/show-13.html">
+              <b><img src="/upload/201504/16/201504161149414479.jpg" /></b>
+              <span>1季度多家房企利润跌幅超50% 去库存促销战打响</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="line10"></div>
+      <h3>人气排行</h3>
+      <ul class="rank-list">
+        
+        <li class="active">
+        
+          <span>04-17</span>
+          <i class="num">1</i><a href="/news/show-32.html">深圳限购限行后首次公车拍卖 近三成流拍</a>
+        </li>
+        
+        <li>
+        
+          <span>04-17</span>
+          <i class="num">2</i><a href="/news/show-29.html">淘宝严厉打击刷单行为 三家网店虚假交易受罚关门</a>
+        </li>
+        
+        <li>
+        
+          <span>04-17</span>
+          <i class="num">3</i><a href="/news/show-27.html">中国首个东盟电子商务平台“美丽湾”启动</a>
+        </li>
+        
+        <li>
+        
+          <span>04-16</span>
+          <i class="num">4</i><a href="/news/show-23.html">电商下乡，京东、苏宁、阿里农村遭遇战打响？</a>
+        </li>
+        
+        <li>
+        
+          <span>04-16</span>
+          <i class="num">5</i><a href="/news/show-26.html">走小米的路子就想颠覆苹果？乐视君，你还是醒醒吧</a>
+        </li>
+        
+        <li>
+        
+          <span>04-16</span>
+          <i class="num">6</i><a href="/news/show-25.html">小米董事长雷军：手把手教你做新电商</a>
+        </li>
+        
+        <li>
+        
+          <span>04-16</span>
+          <i class="num">7</i><a href="/news/show-22.html">58同城与赶集网最快今日将宣布合并</a>
+        </li>
+        
+        <li>
+        
+          <span>04-17</span>
+          <i class="num">8</i><a href="/news/show-28.html">普通美国人怎么看 Apple Watch？</a>
+        </li>
+        
+        <li>
+        
+          <span>04-16</span>
+          <i class="num">9</i><a href="/news/show-24.html">易车总裁邵京宁：汽车行业电商化的三个阶段</a>
+        </li>
+        
+        <li>
+        
+          <span>04-16</span>
+          <i class="num">10</i><a href="/news/show-17.html">哈弗H6 比亚迪S7 长安CS75怎么样 看看车主说法</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+  </div>
+  <!--/右边-->
+  
+  <!--左边-->
+  <div class="list-auto">
+    <ul class="n-list">
+      <!--取得一个分页DataTable-->
+      
+      <li>
+        <h2><a href="/news/show-29.html">淘宝严厉打击刷单行为 三家网店虚假交易受罚关门</a></h2>
+        <div class="note">
+          
+          <p>&amp;emsp;&amp;emsp;楚天都市报讯 楚天都市报讯（记者吕锐实习生李炯）网络中介平台专门招聘兼职人员当刷手，帮淘宝网上的卖家刷虚假成交量和好评，以此获利。大三学生“卧底”近3个月，揭开“淘宝卖家——中介平台——刷手”的交易内幕。4月15日，楚天都市报重点报道此事后，…</p>
+          <div class="info">
+            <span class="time">2015-04-17 10:16:01</span>
+            <span class="comm"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_comment_count&id=29"></script>人评论</span>
+            <span class="view"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_article_click&id=29"></script>次浏览</span>
+          </div>
+        </div>
+      </li>
+      
+      <li>
+        <h2><a href="/news/show-28.html">普通美国人怎么看 Apple Watch？</a></h2>
+        <div class="note">
+          
+          <p>苹果公司今天正式开始在自己的直营店内开始向用户提供 Apple Watch 的试用服务，同时网上也开始接受 Apple Watch 的预定。对于一些人来说，Apple Watch 是一款“千呼万唤始出来”的产品，但对另一些人来说，这不过是又一款“苹果公司的产品”。关于 Apple Watch 的业内分析已经…</p>
+          <div class="info">
+            <span class="time">2015-04-17 10:12:33</span>
+            <span class="comm"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_comment_count&id=28"></script>人评论</span>
+            <span class="view"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_article_click&id=28"></script>次浏览</span>
+          </div>
+        </div>
+      </li>
+      
+      <li>
+        <h2><a href="/news/show-27.html">中国首个东盟电子商务平台“美丽湾”启动</a></h2>
+        <div class="note">
+          
+          <b><img src="/upload/201504/17/201504170015481462.jpg" /></b>
+          
+          <p>8月23日下午,国内第一家专业的东盟电子电商平台“美丽湾(www.meiliwan.com)”在广西南宁举行启动仪式。“美丽湾”东盟电子商务平台是由美丽传说股份有限公司全力打造的最专业、最具特色的中国与东盟间的B2B2C电子贸易平台。本次启动仪式以“美丽中国美丽湾”为主题，由美丽传说…</p>
+          <div class="info">
+            <span class="time">2015-04-17 0:15:49</span>
+            <span class="comm"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_comment_count&id=27"></script>人评论</span>
+            <span class="view"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_article_click&id=27"></script>次浏览</span>
+          </div>
+        </div>
+      </li>
+      
+      <li>
+        <h2><a href="/news/show-26.html">走小米的路子就想颠覆苹果？乐视君，你还是醒醒吧</a></h2>
+        <div class="note">
+          
+          <p>在北京气温骤升的4月14日，贾跃亭终于在万事达中心发布了久违的3款乐视超级手机。此前贾跃亭曾放言要颠覆苹果，在看完这场发布会后，嗅君觉得乐视要颠覆苹果还为时尚早。背景复习：乐视手机可能是贾跃亭的豪赌“乐视手机此次跟代工厂签订的首批订单量为30万台，目前代工厂已交…</p>
+          <div class="info">
+            <span class="time">2015-04-16 13:50:20</span>
+            <span class="comm"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_comment_count&id=26"></script>人评论</span>
+            <span class="view"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_article_click&id=26"></script>次浏览</span>
+          </div>
+        </div>
+      </li>
+      
+      <li>
+        <h2><a href="/news/show-25.html">小米董事长雷军：手把手教你做新电商</a></h2>
+        <div class="note">
+          
+          <p>小米电商的崛起，胜在重新制定生态规则的整体打法，从销售模式、电商系统搭建、物流系统支撑、社会化媒体运营等各维度构成一个业界从未见过的新架构整体。这也是为何很多对手尝试用小米模式围堵小米时，从一些单点切入模仿，却又浑身别扭的症结所在。用体系化的思维来看小米电…</p>
+          <div class="info">
+            <span class="time">2015-04-16 13:42:04</span>
+            <span class="comm"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_comment_count&id=25"></script>人评论</span>
+            <span class="view"><script type="text/javascript" src="/tools/submit_ajax.ashx?action=view_article_click&id=25"></script>次浏览</span>
+          </div>
+        </div>
+      </li>
+      
+    </ul>
+    
+    <!--页码列表-->
+    <div class="page-box">
+      <div class="digg"><span>共22记录</span><a href="/news/index-page-1.html">上一页</a><a href="/news/index-page-1.html">1</a><span class="current">2</span><a href="/news/index-page-3.html">3</a><a href="/news/index-page-4.html">4</a><a href="/news/index-page-5.html">5</a><a href="/news/index-page-3.html">下一页</a></div>
+    </div>
+    <!--/页码列表-->
+  </div>
+  <!--/左边-->
+
+</div>
+
+<!--Footer-->
+<div class="footer clearfix">
+  <div class="foot-nav">
+    <a target="_blank" href="/index.html">首 页</a>|
+    <a target="_blank" href="/content/about.html">关于我们</a>|
+    <a target="_blank" href="/news/index.html">新闻资讯</a>|
+    <a target="_blank" href="/goods.html">购物商城</a>|
+    <a target="_blank" href="/video.html">视频专区</a>|
+    <a target="_blank" href="/down.html">资源下载</a>|
+    <a target="_blank" href="/photo.html">图片分享</a>|
+    <a target="_blank" href="/feedback.html">留言反馈</a>|
+    <a target="_blank" href="/link.html">友情链接</a>|
+    <a target="_blank" href="/content/contact.html">联系我们</a>
+  </div>
+  <div class="copyright">
+    <p>版权所有 深圳市动力启航软件有限公司 粤ICP备11064298号 DTcms版本号：4.0.3</p>
+    <p>Copyright &copy; 2009-2015 dtcms.net Corporation,All Rights Reserved.</p>
+    <p><script src="http://s24.cnzz.com/stat.php?id=1996164&web_id=1996164&show=pic" language="javascript"></script></p>
+  </div>
+</div>
+<!--/Footer-->
+</body>
+</html>

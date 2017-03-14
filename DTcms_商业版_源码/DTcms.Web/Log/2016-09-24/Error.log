@@ -1,0 +1,18 @@
+[2016-09-24 18:01:56.2394] 
+客户机IP:::1
+错误地址:http://localhost:16976/favicon.ico
+异常信息:无法打开登录所请求的数据库 "DTcmsdb4"。登录失败。
+用户 'sa' 登录失败。
+[2016-09-24 18:01:56.3564] 
+客户机IP:::1
+错误地址:http://localhost:16976/favicon.ico
+异常信息:无法打开登录所请求的数据库 "DTcmsdb4"。登录失败。
+用户 'sa' 登录失败。
+[2016-09-24 18:02:12.0193] 
+客户机IP:::1
+错误地址:http://localhost:16976/admin/login.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+[2016-09-24 18:23:51.3256] 
+客户机IP:::1
+错误地址:http://localhost:16976/favicon.ico
+异常信息:文件不存在。

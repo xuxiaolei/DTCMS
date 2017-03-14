@@ -1,0 +1,49 @@
+[2016-09-26 16:19:32.4648] System.DivideByZeroException: 尝试除以零。
+   在 DTcms.Common.Thumbnail.MakeThumbnailImage(String fileName, String newFileName, Int32 width, Int32 height, String mode) 位置 G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Common\Thumbnail.cs:行号 345
+   在 DTcms.Web.UI.UpLoad.fileSaveAs(HttpPostedFile postedFile, String[] allowExtensions, Int32 maxSize, Boolean isThumbnail, Boolean isWater, Int32 width, Int32 height) 位置 G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web.UI\UpLoad.cs:行号 129
+[2016-09-26 16:22:12.9600] G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\upload\201609\26\201609261622128440.jpg
+[2016-09-26 16:22:12.9740] G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\upload\201609\26\thumb_201609261622128440.jpg
+[2016-09-26 16:22:12.9740] 0
+[2016-09-26 16:22:12.9740] 0
+[2016-09-26 16:22:12.9740] System.DivideByZeroException: 尝试除以零。
+   在 DTcms.Common.Thumbnail.MakeThumbnailImage(String fileName, String newFileName, Int32 width, Int32 height, String mode) 位置 G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Common\Thumbnail.cs:行号 351
+   在 DTcms.Web.UI.UpLoad.fileSaveAs(HttpPostedFile postedFile, String[] allowExtensions, Int32 maxSize, Boolean isThumbnail, Boolean isWater, Int32 width, Int32 height) 位置 G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web.UI\UpLoad.cs:行号 129
+[2016-09-26 16:26:04.7933] G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\upload\201609\26\201609261626046673.jpg
+[2016-09-26 16:26:04.8043] G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\upload\201609\26\201609261626046603.jpg
+[2016-09-26 16:26:04.8043] G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\upload\201609\26\thumb_201609261626046603.jpg
+[2016-09-26 16:26:04.8043] 200
+[2016-09-26 16:26:04.8043] 200
+[2016-09-26 16:26:04.8043] System.IO.IOException: 文件“G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\upload\201609\26\201609261626046603.jpg”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 System.Web.HttpPostedFile.SaveAs(String filename)
+   在 DTcms.Web.UI.UpLoad.fileSaveAs(HttpPostedFile postedFile, String[] allowExtensions, Int32 maxSize, Boolean isThumbnail, Boolean isWater, Int32 width, Int32 height) 位置 G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web.UI\UpLoad.cs:行号 120
+[2016-09-26 16:26:04.8043] G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\upload\201609\26\thumb_201609261626046673.jpg
+[2016-09-26 16:26:04.8043] 200
+[2016-09-26 16:26:04.8043] 200
+[2016-09-26 16:27:15.5793] G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\upload\201609\26\201609261627155523.jpg
+[2016-09-26 16:27:15.5793] G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\upload\201609\26\thumb_201609261627155523.jpg
+[2016-09-26 16:27:15.5793] 200
+[2016-09-26 16:27:15.5793] 200
+[2016-09-26 16:27:16.1574] G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\upload\201609\26\201609261627161184.jpg
+[2016-09-26 16:27:16.1574] G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\upload\201609\26\thumb_201609261627161184.jpg
+[2016-09-26 16:27:16.1574] 200
+[2016-09-26 16:27:16.1574] 200
+[2016-09-26 16:27:20.4256] G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\upload\201609\26\201609261627204076.jpg
+[2016-09-26 16:27:20.4256] G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\upload\201609\26\thumb_201609261627204076.jpg
+[2016-09-26 16:27:20.4256] 200
+[2016-09-26 16:27:20.4256] 200
+[2016-09-26 16:27:20.5566] G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\upload\201609\26\201609261627205256.jpg
+[2016-09-26 16:27:20.5566] G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\upload\201609\26\thumb_201609261627205256.jpg
+[2016-09-26 16:27:20.5566] 200
+[2016-09-26 16:27:20.5566] 200
+[2016-09-26 16:27:20.9836] G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\upload\201609\26\201609261627209586.jpg
+[2016-09-26 16:27:20.9836] G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\upload\201609\26\thumb_201609261627209586.jpg
+[2016-09-26 16:27:20.9836] 200
+[2016-09-26 16:27:20.9836] 200
+[2016-09-26 16:27:21.0996] G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\upload\201609\26\201609261627210806.jpg
+[2016-09-26 16:27:21.0996] G:\DTcms_商业版_源码\DTcms_商业版_源码\DTcms.Web\upload\201609\26\thumb_201609261627210806.jpg
+[2016-09-26 16:27:21.0996] 200
+[2016-09-26 16:27:21.0996] 200
