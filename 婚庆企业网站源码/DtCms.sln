@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtCms.Web", "DtCms.Web\DtCms.Web.csproj", "{08EFFC17-51CA-4387-81F7-4967412258F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtCms.BLL", "DtCms.BLL\DtCms.BLL.csproj", "{DA2C18D9-EAB9-4F30-A1B8-F0DE3E64FFA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtCms.DAL", "DtCms.DAL\DtCms.DAL.csproj", "{65555354-9577-45DD-A7F0-296EDBAF64A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtCms.ActionLabel", "DtCms.ActionLabel\DtCms.ActionLabel.csproj", "{E3366AA9-80AD-4FC4-8E10-52BD1C561A7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtCms.Common", "DtCms.Common\DtCms.Common.csproj", "{367CD949-DF30-4801-9D75-7B2F1EBB4621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtCms.DBUtility", "DtCms.DBUtility\DtCms.DBUtility.csproj", "{D31044BA-7A50-4B94-AAFE-45C1C13C23E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtCms.Model", "DtCms.Model\DtCms.Model.csproj", "{973697AF-B465-4902-B101-422DB78FA163}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtCms.Web.UI", "DtCms.Web.UI\DtCms.Web.UI.csproj", "{65B6931C-BFB5-4663-9825-3876306689C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08EFFC17-51CA-4387-81F7-4967412258F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EFFC17-51CA-4387-81F7-4967412258F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EFFC17-51CA-4387-81F7-4967412258F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EFFC17-51CA-4387-81F7-4967412258F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2C18D9-EAB9-4F30-A1B8-F0DE3E64FFA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2C18D9-EAB9-4F30-A1B8-F0DE3E64FFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2C18D9-EAB9-4F30-A1B8-F0DE3E64FFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2C18D9-EAB9-4F30-A1B8-F0DE3E64FFA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65555354-9577-45DD-A7F0-296EDBAF64A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65555354-9577-45DD-A7F0-296EDBAF64A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65555354-9577-45DD-A7F0-296EDBAF64A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65555354-9577-45DD-A7F0-296EDBAF64A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3366AA9-80AD-4FC4-8E10-52BD1C561A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3366AA9-80AD-4FC4-8E10-52BD1C561A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3366AA9-80AD-4FC4-8E10-52BD1C561A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3366AA9-80AD-4FC4-8E10-52BD1C561A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{367CD949-DF30-4801-9D75-7B2F1EBB4621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{367CD949-DF30-4801-9D75-7B2F1EBB4621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{367CD949-DF30-4801-9D75-7B2F1EBB4621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{367CD949-DF30-4801-9D75-7B2F1EBB4621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31044BA-7A50-4B94-AAFE-45C1C13C23E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31044BA-7A50-4B94-AAFE-45C1C13C23E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31044BA-7A50-4B94-AAFE-45C1C13C23E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31044BA-7A50-4B94-AAFE-45C1C13C23E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{973697AF-B465-4902-B101-422DB78FA163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{973697AF-B465-4902-B101-422DB78FA163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{973697AF-B465-4902-B101-422DB78FA163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{973697AF-B465-4902-B101-422DB78FA163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65B6931C-BFB5-4663-9825-3876306689C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65B6931C-BFB5-4663-9825-3876306689C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65B6931C-BFB5-4663-9825-3876306689C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65B6931C-BFB5-4663-9825-3876306689C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

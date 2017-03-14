@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root imageWidth="680" imageHeight="345">
+  <menu id="1" title="图一" url="" frame="_parent" imageUrl="/images/flaimg/team_img01.jpg" />
+  <menu id="2" title="图二" url="" frame="_parent" imageUrl="/images/flaimg/team_img02.jpg" />
+  <menu id="3" title="图三" url="" frame="_parent" imageUrl="/images/flaimg/team_img03.jpg" />
+  <menu id="4" title="图四" url="" frame="_parent" imageUrl="/images/flaimg/team_img04.jpg" />
+  <menu id="5" title="图五" url="" frame="_parent" imageUrl="/images/flaimg/team_img05.jpg" />
+  <menu id="6" title="图六" url="" frame="_parent" imageUrl="/images/flaimg/team_img06.jpg" />
+  <menu id="7" title="图七" url="" frame="_parent" imageUrl="/images/flaimg/team_img07.jpg" />
+  <menu id="8" title="图八" url="" frame="_parent" imageUrl="/images/flaimg/team_img08.jpg" />
+</root>

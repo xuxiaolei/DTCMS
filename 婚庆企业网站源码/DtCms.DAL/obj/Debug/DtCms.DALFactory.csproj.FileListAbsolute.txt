@@ -1,0 +1,9 @@
+E:\web\DTCMS\DtCms.Dal\bin\Debug\Dtcms.DALFactory.dll
+E:\web\DTCMS\DtCms.Dal\bin\Debug\Dtcms.DALFactory.pdb
+E:\web\DTCMS\DtCms.Dal\bin\Debug\Dtcms.Common.dll
+E:\web\DTCMS\DtCms.Dal\bin\Debug\Dtcms.Model.dll
+E:\web\DTCMS\DtCms.Dal\bin\Debug\Dtcms.Model.pdb
+E:\web\DTCMS\DtCms.Dal\bin\Debug\Dtcms.Common.pdb
+E:\web\DTCMS\DtCms.Dal\obj\Debug\ResolveAssemblyReference.cache
+E:\web\DTCMS\DtCms.Dal\obj\Debug\Dtcms.DALFactory.dll
+E:\web\DTCMS\DtCms.Dal\obj\Debug\Dtcms.DALFactory.pdb

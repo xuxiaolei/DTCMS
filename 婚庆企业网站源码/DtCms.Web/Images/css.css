@@ -1,0 +1,41 @@
+.product{ padding:2px; background:#fff; border: #D00000 1px solid; width:110px;}
+.product2{ padding:4px; background:#fff; border: #0159A9 1px solid; width:137px;}
+body {margin: 0px;background:#9E0000;}
+a:link {color: #000000;text-decoration: none;}
+a:visited {text-decoration: none;color: #000000;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
+*{font-size:12px; line-height:200%;}
+.luotong_page{ margin:10px;}
+#newslist{ margin:10px;}
+input{line-height:100%;}
+
+.bai{ color: #FFF; font-family:Arial;font-weight:bold; font-size:12px;}
+.bai2{ color: #FFF;}
+.a11{border:#CCCCCC 1px solid; width:185px; height:140px;background-color:#EBF3FE; text-align:center;}
+
+*{margin:0;padding:0;border:0;} 
+#dht {line-height: 31px; list-style-type: none;padding:0px 0px 0px 44px; height:31px;} 
+#dht a { display: block; width: 100px; text-align:center; } 
+#dht a:link { color:#FFF; text-decoration:none;} 
+#dht a:visited { color:#FFF;text-decoration:none; } 
+#dht a:hover { color:#FF0;text-decoration:none;font-weight:bold; } 
+#dht li { float: left; width: 100px; background-image:url(bg2.jpg); height:26px; padding-top:5px;} 
+#dht li a:hover{ background:#7B0000; } 
+#dht li ul { line-height: 27px; list-style-type: none;text-align:left; left: -999em; width: 180px; position: absolute; } 
+#dht li ul li{ float: left; width: 160px; background: #F6F6F6; } 
+#dht li ul a{ wedisplay: block; width: 156px;text-align:left;padding-left:24px; } 
+#dht li ul a:link { color:#666; text-decoration:none; } 
+#dht li ul a:visited { color:#666;text-decoration:none; } 
+#dht li ul a:hover { color:#F3F3F3;text-decoration:none;font-weight:normal; background:#E93301; width: 160px; } 
+#dht li:hover ul { left: auto; 
+} 
+#dht li.sfhover ul { left: auto; } 
+#content { clear: left;  } 
+
+
+.left1 { width:156px; margin:20px 0px 20px 0px;}
+.left1 ul { list-style: none; margin:0px;}
+.left1 li a { height:28px; line-height:28px; voice-family:inherit; text-decoration:none;text-indent: 15px;}
+.left1 li a:link, .left1 li a:visited { color: #000; display:block; background:url(tableft1.jpg); line-height:28px; padding-left:25px;}
+.left1 li a:hover,{ color: #900;}

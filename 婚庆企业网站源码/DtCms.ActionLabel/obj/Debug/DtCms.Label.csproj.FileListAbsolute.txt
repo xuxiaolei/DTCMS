@@ -1,0 +1,15 @@
+D:\backweb\DTCMS_Access\DtCms.Label\bin\Debug\DtCms.Label.dll
+D:\backweb\DTCMS_Access\DtCms.Label\bin\Debug\DtCms.Label.pdb
+D:\backweb\DTCMS_Access\DtCms.Label\bin\Debug\Dtcms.BLL.dll
+D:\backweb\DTCMS_Access\DtCms.Label\bin\Debug\Dtcms.Common.dll
+D:\backweb\DTCMS_Access\DtCms.Label\bin\Debug\Dtcms.Model.dll
+D:\backweb\DTCMS_Access\DtCms.Label\bin\Debug\Dtcms.DBUtility.dll
+D:\backweb\DTCMS_Access\DtCms.Label\bin\Debug\Dtcms.DAL.dll
+D:\backweb\DTCMS_Access\DtCms.Label\bin\Debug\Dtcms.Model.pdb
+D:\backweb\DTCMS_Access\DtCms.Label\bin\Debug\Dtcms.DBUtility.pdb
+D:\backweb\DTCMS_Access\DtCms.Label\bin\Debug\Dtcms.BLL.pdb
+D:\backweb\DTCMS_Access\DtCms.Label\bin\Debug\Dtcms.Common.pdb
+D:\backweb\DTCMS_Access\DtCms.Label\bin\Debug\Dtcms.DAL.pdb
+D:\backweb\DTCMS_Access\DtCms.Label\obj\Debug\ResolveAssemblyReference.cache
+D:\backweb\DTCMS_Access\DtCms.Label\obj\Debug\DtCms.Label.dll
+D:\backweb\DTCMS_Access\DtCms.Label\obj\Debug\DtCms.Label.pdb
