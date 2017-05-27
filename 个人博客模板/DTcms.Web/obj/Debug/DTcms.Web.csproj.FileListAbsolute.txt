@@ -1,0 +1,192 @@
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\bin\DTcms.Web.dll
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\bin\DTcms.Web.pdb
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\bin\DTcms.Common.dll
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\bin\DTcms.Common.pdb
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\obj\Debug\ResolveAssemblyReference.cache
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\obj\Debug\DTcms.Web.dll
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\obj\Debug\DTcms.Web.pdb
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\bin\DTcms.Web.UI.dll
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\bin\DTcms.Model.dll
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\bin\DTcms.BLL.dll
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\bin\DTcms.DAL.dll
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\bin\DTcms.DBUtility.dll
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\bin\DTcms.Web.UI.pdb
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\bin\DTcms.Model.pdb
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\bin\DTcms.BLL.pdb
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\bin\DTcms.DAL.pdb
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\bin\DTcms.DBUtility.pdb
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\bin\DTcms.API.dll
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\bin\DTcms.API.pdb
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\bin\DTcms.WeiXinComm.dll
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Web\bin\DTcms.WeiXinComm.pdb
+E:\动力启航\DTcms\test\DTcms.Web\bin\DTcms.Web.dll
+E:\动力启航\DTcms\test\DTcms.Web\bin\DTcms.Web.pdb
+E:\动力启航\DTcms\test\DTcms.Web\bin\DTcms.API.dll
+E:\动力启航\DTcms\test\DTcms.Web\bin\DTcms.BLL.dll
+E:\动力启航\DTcms\test\DTcms.Web\bin\DTcms.Common.dll
+E:\动力启航\DTcms\test\DTcms.Web\bin\DTcms.Model.dll
+E:\动力启航\DTcms\test\DTcms.Web\bin\DTcms.Web.UI.dll
+E:\动力启航\DTcms\test\DTcms.Web\bin\DTcms.DAL.dll
+E:\动力启航\DTcms\test\DTcms.Web\bin\DTcms.DBUtility.dll
+E:\动力启航\DTcms\test\DTcms.Web\bin\DTcms.API.pdb
+E:\动力启航\DTcms\test\DTcms.Web\bin\DTcms.BLL.pdb
+E:\动力启航\DTcms\test\DTcms.Web\bin\DTcms.Common.pdb
+E:\动力启航\DTcms\test\DTcms.Web\bin\DTcms.Model.pdb
+E:\动力启航\DTcms\test\DTcms.Web\bin\DTcms.Web.UI.pdb
+E:\动力启航\DTcms\test\DTcms.Web\bin\DTcms.DAL.pdb
+E:\动力启航\DTcms\test\DTcms.Web\bin\DTcms.DBUtility.pdb
+E:\动力启航\DTcms\test\DTcms.Web\obj\Debug\ResolveAssemblyReference.cache
+E:\动力启航\DTcms\test\DTcms.Web\obj\Debug\DTcms.Web.dll
+E:\动力启航\DTcms\test\DTcms.Web\obj\Debug\DTcms.Web.pdb
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Web\bin\DTcms.Web.dll
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Web\bin\DTcms.Web.pdb
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Web\bin\DTcms.API.dll
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Web\bin\DTcms.BLL.dll
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Web\bin\DTcms.Common.dll
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Web\bin\DTcms.Model.dll
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Web\bin\DTcms.Web.UI.dll
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Web\bin\DTcms.DAL.dll
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Web\bin\DTcms.DBUtility.dll
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Web\bin\DTcms.API.pdb
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Web\bin\DTcms.BLL.pdb
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Web\bin\DTcms.Common.pdb
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Web\bin\DTcms.Model.pdb
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Web\bin\DTcms.Web.UI.pdb
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Web\bin\DTcms.DAL.pdb
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Web\bin\DTcms.DBUtility.pdb
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Web\obj\Debug\ResolveAssemblyReference.cache
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Web\obj\Debug\DTcms.Web.dll
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Web\obj\Debug\DTcms.Web.pdb
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Web\bin\DTcms.Web.dll
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Web\bin\DTcms.Web.pdb
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Web\bin\DTcms.API.dll
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Web\bin\DTcms.BLL.dll
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Web\bin\DTcms.Common.dll
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Web\bin\DTcms.Model.dll
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Web\bin\DTcms.Web.UI.dll
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Web\bin\DTcms.DAL.dll
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Web\bin\DTcms.DBUtility.dll
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Web\bin\DTcms.API.pdb
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Web\bin\DTcms.BLL.pdb
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Web\bin\DTcms.Common.pdb
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Web\bin\DTcms.Model.pdb
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Web\bin\DTcms.Web.UI.pdb
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Web\bin\DTcms.DAL.pdb
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Web\bin\DTcms.DBUtility.pdb
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Web\obj\Debug\ResolveAssemblyReference.cache
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Web\obj\Debug\DTcms.Web.dll
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Web\obj\Debug\DTcms.Web.pdb
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Web\obj\Debug\ResolveAssemblyReference.cache
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Web\obj\Debug\DTcms.Web.dll
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Web\bin\DTcms.Web.dll
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Web\bin\DTcms.Web.pdb
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Web\bin\DTcms.API.dll
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Web\bin\DTcms.BLL.dll
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Web\bin\DTcms.Common.dll
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Web\bin\DTcms.Model.dll
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Web\bin\DTcms.Web.UI.dll
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Web\bin\DTcms.DAL.dll
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Web\bin\DTcms.DBUtility.dll
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Web\bin\DTcms.API.pdb
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Web\bin\DTcms.BLL.pdb
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Web\bin\DTcms.Common.pdb
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Web\bin\DTcms.Model.pdb
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Web\bin\DTcms.Web.UI.pdb
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Web\bin\DTcms.DAL.pdb
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Web\bin\DTcms.DBUtility.pdb
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Web\obj\Debug\DTcms.Web.pdb
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Web.dll
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Web.pdb
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.API.dll
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.BLL.dll
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Common.dll
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Model.dll
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Web.UI.dll
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.DAL.dll
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.DBUtility.dll
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.API.pdb
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.BLL.pdb
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Common.pdb
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Model.pdb
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Web.UI.pdb
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.DAL.pdb
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.DBUtility.pdb
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\obj\Debug\DTcms.Web.csprojResolveAssemblyReference.cache
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\obj\Debug\DTcms.Web.dll
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\obj\Debug\DTcms.Web.pdb
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Web.dll
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Web.pdb
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.API.dll
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.BLL.dll
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Common.dll
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Model.dll
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Web.UI.dll
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.DAL.dll
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.DBUtility.dll
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.API.pdb
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.BLL.pdb
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Common.pdb
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Model.pdb
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Web.UI.pdb
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.DAL.pdb
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.DBUtility.pdb
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\obj\Debug\DTcms.Web.csprojResolveAssemblyReference.cache
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\obj\Debug\DTcms.Web.dll
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\obj\Debug\DTcms.Web.pdb
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Web.dll
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Web.pdb
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.API.dll
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.BLL.dll
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Common.dll
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Model.dll
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Web.UI.dll
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.DAL.dll
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.DBUtility.dll
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.API.pdb
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.BLL.pdb
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Common.pdb
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Model.pdb
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.Web.UI.pdb
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.DAL.pdb
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\bin\DTcms.DBUtility.pdb
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\obj\Debug\DTcms.Web.csprojResolveAssemblyReference.cache
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\obj\Debug\DTcms.Web.dll
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Web\obj\Debug\DTcms.Web.pdb
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Web\bin\DTcms.Web.dll
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Web\bin\DTcms.Web.pdb
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Web\bin\DTcms.API.dll
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Web\bin\DTcms.BLL.dll
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Web\bin\DTcms.Common.dll
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Web\bin\DTcms.Model.dll
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Web\bin\DTcms.Web.UI.dll
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Web\bin\DTcms.DAL.dll
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Web\bin\DTcms.DBUtility.dll
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Web\bin\DTcms.API.pdb
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Web\bin\DTcms.BLL.pdb
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Web\bin\DTcms.Common.pdb
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Web\bin\DTcms.Model.pdb
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Web\bin\DTcms.Web.UI.pdb
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Web\bin\DTcms.DAL.pdb
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Web\bin\DTcms.DBUtility.pdb
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Web\obj\Debug\DTcms.Web.csprojResolveAssemblyReference.cache
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Web\obj\Debug\DTcms.Web.dll
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Web\obj\Debug\DTcms.Web.pdb
+F:\DTCMS\给大家分享一模板\DTcms.Web\bin\DTcms.Web.dll
+F:\DTCMS\给大家分享一模板\DTcms.Web\bin\DTcms.Web.pdb
+F:\DTCMS\给大家分享一模板\DTcms.Web\bin\DTcms.API.dll
+F:\DTCMS\给大家分享一模板\DTcms.Web\bin\DTcms.BLL.dll
+F:\DTCMS\给大家分享一模板\DTcms.Web\bin\DTcms.Common.dll
+F:\DTCMS\给大家分享一模板\DTcms.Web\bin\DTcms.Model.dll
+F:\DTCMS\给大家分享一模板\DTcms.Web\bin\DTcms.Web.UI.dll
+F:\DTCMS\给大家分享一模板\DTcms.Web\bin\DTcms.DAL.dll
+F:\DTCMS\给大家分享一模板\DTcms.Web\bin\DTcms.DBUtility.dll
+F:\DTCMS\给大家分享一模板\DTcms.Web\bin\DTcms.API.pdb
+F:\DTCMS\给大家分享一模板\DTcms.Web\bin\DTcms.BLL.pdb
+F:\DTCMS\给大家分享一模板\DTcms.Web\bin\DTcms.Common.pdb
+F:\DTCMS\给大家分享一模板\DTcms.Web\bin\DTcms.Model.pdb
+F:\DTCMS\给大家分享一模板\DTcms.Web\bin\DTcms.Web.UI.pdb
+F:\DTCMS\给大家分享一模板\DTcms.Web\bin\DTcms.DAL.pdb
+F:\DTCMS\给大家分享一模板\DTcms.Web\bin\DTcms.DBUtility.pdb
+F:\DTCMS\给大家分享一模板\DTcms.Web\obj\Debug\DTcms.Web.csprojResolveAssemblyReference.cache
+F:\DTCMS\给大家分享一模板\DTcms.Web\obj\Debug\DTcms.Web.dll
+F:\DTCMS\给大家分享一模板\DTcms.Web\obj\Debug\DTcms.Web.pdb

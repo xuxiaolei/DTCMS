@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="author" content="dt猫（www.dtmao.cc）" />
+    <link rel="stylesheet" type="text/css" href="<%templateskin%>/css/lib.css">
+    <link rel="stylesheet" type="text/css" href="<%templateskin%>/css/style.css">
+    <link rel="stylesheet" type="text/css" href="<%templateskin%>/upload/71/71.css">
+    <script type="text/javascript" src="http://s.lfge.net/static/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="<%templateskin%>/script/lib.min.js"></script>
+    <script type="text/javascript" src="<%templateskin%>/script/org.js" data-main="baseMain"></script>
+    <title>{model.title} - {site.name}</title>
+    <meta name="keywords" content="{model.seo_keywords}" />
+    <meta name="description" content="{model.seo_description}" />
+<!--    /*
+     * *************************************************
+                           (0 0)
+       +-------------oOO----(_)----------------+
+       |          Powered By : DTmao            |
+       |          http://www.dtmao.cc           |
+       |             QQ:809451989             |
+       |        E-mail:809451989@qq.com        |
+       |       专注 DTcms /模板/插件/二次开发                   |
+       +--------------------------oOO----------+
+                          |__|__|
+                           || ||
+                          ooO Ooo
+     * *************************************************
+    */-->
+</head>
+<body class="nobanner">
+    <!--Header-->
+    <%template src="_header.html"%>
+    <!--/Header-->
+    <div id="sitecontent">
+        <div id="newsPage" class="npagePage">
+            <div class="content">
+                <div class="header">
+                    <p class="title">
+                        研究</p>
+                    <p class="subtitle">
+                        RESEARCH</p>
+                </div>
+                <div id="newslist">
+                    <%set DataTable newsList=get_article_list(channel, category_id, pagesize, page, "status=0", out totalcount, out pagelist, "news_list", category_id, "__id__")%><!--取得一个分页DataTable-->
+                    <%foreach(DataRow dr in newsList.Rows)%>
+                    <div class="newstitem">
+                        <div class="newscontent">
+                            <a class="newsinfo fl" target="_blank" href="<%linkurl("news_show",{dr[id]})%>">
+                                <img src="{dr[img_url]}" class="hide" /><div class="newsdate fl wow fadeInLeft" data-wow-delay=".1s">
+                                    <p class="md">
+                                        <%datetostr({dr[add_time]},MM-dd)%></p>
+                                    <p class="year">
+                                        <%datetostr({dr[add_time]},yyyy)%></p>
+                                </div>
+                                <div class="newsbody fl wow fadeInRight" data-wow-delay=".1s">
+                                    <p class="title ellipsis">
+                                        {dr[title]}</p>
+                                    <p class="description">
+                                        {dr[zhaiyao]} ...</p>
+                                </div>
+                            </a><i class="fa fa-angle-right fr"></i>
+                        </div>
+                    </div>
+                    <%/foreach%>
+                    <div class="clear">
+                    </div>
+                </div>
+                <div id="pages">
+                    {pagelist}
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <%template src="_footer.html"%>
+    <!--/Footer-->
+</body>
+</html>

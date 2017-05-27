@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="author" content="dt猫（www.dtmao.cc）" />
+    <link rel="stylesheet" type="text/css" href="<%templateskin%>/css/lib.css">
+    <link rel="stylesheet" type="text/css" href="<%templateskin%>/css/style.css">
+    <link rel="stylesheet" type="text/css" href="<%templateskin%>/upload/71/71.css">
+    <script type="text/javascript" src="http://s.lfge.net/static/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="<%templateskin%>/script/lib.min.js"></script>
+    <script type="text/javascript" src="<%templateskin%>/script/org.js" data-main="baseMain"></script>
+    <%set string category_title=get_category_title(model.category_id,"作品")%>
+    <title>{model.title} - {category_title}</title>
+    <meta content="{model.seo_keywords}" name="keywords" />
+    <meta content="{model.seo_description}" name="description" />
+    <meta name="author" content="www.dtmao.cc">
+    <!--/*
+     * *************************************************
+                           (0 0)
+       +-------------oOO----(_)----------------+
+       |          Powered By : DTmao            |
+       |          http://www.dtmao.cc           |
+       |             QQ:809451989             |
+       |        E-mail:809451989@qq.com        |
+       |       专注 DTcms /模板/插件/二次开发                   |
+       +--------------------------oOO----------+
+                          |__|__|
+                           || ||
+                          ooO Ooo
+     * *************************************************
+    */-->
+</head>
+<body class="nobanner">
+    <!--Header-->
+    <%template src="_header.html"%>
+    <!--/Header-->
+    <div id="sitecontent">
+        <div class="npagePage">
+            <div class="content">
+                <div id="projectwrap" class="fw">
+                    <div id="projectbody">
+                        {model.content}
+                        <div class="clear">
+                        </div>
+                        <div class="postbody">
+                        </div>
+                    </div>
+                    <div id="projectinfo">
+                        <div id="projectih">
+                            <div class="header">
+                                <p class="title">
+                                    {model.title}</p>
+                                <p class="subtitle">
+                                    {model.fields[sub_title]}</p>
+                                <div class="description">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="projectib">
+                        </div>
+                    </div>
+                    <div class="clear">
+                    </div>
+                </div>
+                <div id="pages">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <%template src="_footer.html"%>
+    <!--/Footer-->
+</body>
+</html>

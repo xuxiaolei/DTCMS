@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="author" content="dt猫（www.dtmao.cc）" />
+    <link rel="stylesheet" type="text/css" href="<%templateskin%>/css/lib.css">
+    <link rel="stylesheet" type="text/css" href="<%templateskin%>/css/style.css">
+    <link rel="stylesheet" type="text/css" href="<%templateskin%>/upload/71/71.css">
+    <script type="text/javascript" src="http://s.lfge.net/static/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="<%templateskin%>/script/lib.min.js"></script>
+    <script type="text/javascript" src="<%templateskin%>/script/org.js" data-main="indexMain"></script>
+    <title>{site.seo_title}</title>
+    <meta name="keywords" content="{site.seo_keyword}" />
+    <meta name="description" content="{site.seo_description}" />
+<!--    /*
+     * *************************************************
+                           (0 0)
+       +-------------oOO----(_)----------------+
+       |          Powered By : DTmao            |
+       |          http://www.dtmao.cc           |
+       |             QQ:809451989             |
+       |        E-mail:809451989@qq.com        |
+       |       专注 DTcms /模板/插件/二次开发                   |
+       +--------------------------oOO----------+
+                          |__|__|
+                           || ||
+                          ooO Ooo
+     * *************************************************
+    */-->
+</head>
+<body>
+    <!--Header-->
+    <%template src="_header.html"%>
+    <!--/Header-->
+    <div id="sitecontent">
+        <div id="indexPage">
+            <div id="mslider">
+                <style type="text/css">
+                    #indexPage #mslider, #indexPage #mslider ul li
+                    {
+                        height: 0 px;
+                    }
+                </style>
+                <script type="text/javascript">
+                    $(function () {
+                        $("#mslider li video").each(function (index, element) {
+                            element.play();
+                        });
+                    })
+                </script>
+                <ul class="slider" data-options-auto="" data-options-mode="" data-options-pause="">
+                    <%set DataTable bannerList=get_article_list("banner", 0, 3, "status=0  and img_url<>''")%>
+                    <%loop bannerdr bannerList%>
+                    <%if(bannerdr__loop__id==1)%>
+                    <li style="background-image: url({bannerdr[img_url]})" class="active">
+                        <%else%>
+                        <li style="background-image: url({bannerdr[img_url]})">
+                            <%/if%>
+                            <div id="tempImage_{bannerdr__loop__id}">
+                            </div>
+                            <img style="display: none" src="{bannerdr[img_url]}" /><div class="mask">
+                            </div>
+                            <a target="_blank">
+                                <div>
+                                    <p class="title ellipsis">
+                                    </p>
+                                    <p class="subtitle">
+                                    </p>
+                                </div>
+                                <div class="sliderArrow fa fa-angle-down">
+                                </div>
+                            </a></li>
+                        <%/loop%>
+                </ul>
+            </div>
+            <div id="mproject" class="module ">
+                <div class="bgmask">
+                </div>
+                <div class="content">
+                    <div class="header">
+                        <p class="title">
+                            作品</p>
+                        <p class="subtitle">
+                            works</p>
+                    </div>
+                    <div id="projectlist">
+                        <div class="wrapper">
+                            <%set DataTable worksList=get_article_list("works", 0, 6, "status=0  and img_url<>''")%>
+                            <%loop worksdr worksList%>
+                            <div class="projectitem wow fadeInUp" data-wow-delay=".{worksdr__loop__id}s">
+                                <a href="<%linkurl("works_show",{worksdr[id]})%>" target="_blank">
+                                    <img src="{worksdr[img_url]}" width="500" height="320" /><div class="project_info">
+                                        <div>
+                                            <p class="title">
+                                                {worksdr[title]}</p>
+                                            <p class="subtitle">
+                                                {worksdr[sub_title]}</p>
+                                        </div>
+                                        <div class="line1">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <%/loop%>
+                        </div>
+                    </div>
+                    <div class="clear">
+                    </div>
+                    <a href="<%linkurl("works_list")%>" id="projectmore">VIEW MORE<strong class="line2"></strong></a></div>
+            </div>
+            <div id="mteam" class="module ">
+                <div class="bgmask">
+                </div>
+                <div class="content fw">
+                    <div class="module-slider">
+                        <div class="slider_control prev fl">
+                        </div>
+                        <div class="slider_control next fr">
+                        </div>
+                        <div class="slider_wrapper">
+                            <ul class="slider">
+                                <li>
+                                    <div class="header wow slideInUp" data-wow-delay=".2s">
+                                        <a href="<%linkurl("about","about")%>" target="_blank">
+                                            <img src="<%templateskin%>/upload/71/201512/1449068307441.jpg" width="180" height="180" /><p
+                                                class="title">
+                                                張子建</p>
+                                            <p class="subtitle">
+                                                ZIJNS</p>
+                                            <div class="line1">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <p class="description wow slideInUp" data-wow-delay=".3s">
+                                        創研綜合設計研究所研究員，視覺研究者，東方哲學設計理論的倡導者。其具有東方意境與神韻的作品在社會上擁有廣泛的影響力與號召力。</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="mcontact" class="module   bgShow" style="background-image: url(<%templateskin%>/upload/2/201508/1438618614879.jpg)">
+                <div class="bgmask">
+                </div>
+                <div class="content fw">
+                    <div class="header wow fadeInUp" data-wow-delay=".1s">
+                        <p class="title">
+                            聯繫</p>
+                        <p class="subtitle">
+                            Contact</p>
+                    </div>
+                    <div id="contactlist">
+                        <div id="contactinfo" class="fl wow fadeInLeft" data-wow-delay=".2s">
+                            <h3 class="ellipsis">
+                                {site.company}</h3>
+                            <p class="ellipsis">
+                                Address：{site.address}
+                            </p>
+                            <!--                            <p class="ellipsis">
+                                Zipcode：101100</p>-->
+                            <p class="ellipsis">
+                                Tel：{site.tel}</p>
+                            <p class="ellipsis">
+                                Mobile：{site.fax}</p>
+                            <p class="ellipsis">
+                                Email：{site.email}</p>
+                            <div>
+                                <a class="fl" target="_blank" href="http://weibo.com/zijns"><i class="fa fa-weibo"></i>
+                                </a><a class="fl" target="_blank" href="tencent://message/?uin=809451989&Site=uemo&Menu=yes">
+                                    <i class="fa fa-qq"></i></a><a id="mpbtn" class="fl" href="<%templateskin%>/upload/1/201508/1438424052624.jpg">
+                                        <i class="fa fa-weixin"></i></a>
+                            </div>
+                        </div>
+                        <div id="contactform" class="fr wow fadeInRight" data-wow-delay=".2s">
+                            <link type="text/css" rel="stylesheet" href="{config.webpath}scripts/artdialog/ui-dialog.css" />
+                            <!--<link type="text/css" rel="stylesheet" href="<%templateskin="main"%>/css/style.css" />-->
+                            <!--<script type="text/javascript" src="{config.webpath}scripts/jquery/jquery-1.11.2.min.js"></script>-->
+                            <script type="text/javascript" src="{config.webpath}scripts/jquery/jquery.form.min.js"></script>
+                            <script type="text/javascript" src="{config.webpath}scripts/jquery/Validform_v5.3.2_min.js"></script>
+                            <script type="text/javascript" src="{config.webpath}scripts/artdialog/dialog-plus-min.js"></script>
+                            <script type="text/javascript" src="<%templateskin="main"%>/js/common.js"></script>
+                            <script type="text/javascript">
+                                $(function () {
+                                    //初始化发表评论表单
+                                    AjaxInitForm('#feedback_form', '#btnSubmit', 1);
+                                });
+                            </script>
+                            <form id="feedback_form" name="feedback_form" url="{config.webpath}plugins/feedback/ajax.ashx?action=add&site={site.build_path}">
+                            <p>
+                                <input type="text" class="inputtxt" id="txtUserName" name="txtUserName" placeholder="Name" /></p>
+                            <p>
+                                <input type="text" class="inputtxt" id="txtUserEmail" name="txtUserEmail" placeholder="Email" /></p>
+                            <p>
+                                <input type="text" class="inputtxt" id="txtUserTel" name="txtUserTel" placeholder="Tel" /></p>
+                            <p>
+                                <textarea class="inputtxt" id="txtContent" name="txtContent" placeholder="Content"></textarea></p>
+                            <p>
+                                <input class="inputsub" type="submit" id="btnSubmit" name="btnSubmit" value="Submit" /></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <%template src="_footer.html"%>
+    <!--/Footer-->
+</body>
+</html>

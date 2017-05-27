@@ -1,0 +1,70 @@
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Model\bin\Debug\DTcms.Model.dll
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Model\bin\Debug\DTcms.Model.pdb
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Model\bin\Debug\DTcms.Common.dll
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Model\bin\Debug\DTcms.Common.pdb
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Model\obj\Debug\DTcms.Model.dll
+E:\动力启航\DTcms\svn\dtcms4sql\DTcms.Model\obj\Debug\DTcms.Model.pdb
+E:\动力启航\DTcms\test\DTcms.Model\bin\Debug\DTcms.Model.dll
+E:\动力启航\DTcms\test\DTcms.Model\bin\Debug\DTcms.Model.pdb
+E:\动力启航\DTcms\test\DTcms.Model\bin\Debug\DTcms.Common.dll
+E:\动力启航\DTcms\test\DTcms.Model\bin\Debug\DTcms.Common.pdb
+E:\动力启航\DTcms\test\DTcms.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\动力启航\DTcms\test\DTcms.Model\obj\Debug\DTcms.Model.dll
+E:\动力启航\DTcms\test\DTcms.Model\obj\Debug\DTcms.Model.pdb
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Model\bin\Debug\DTcms.Model.dll
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Model\bin\Debug\DTcms.Model.pdb
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Model\bin\Debug\DTcms.Common.dll
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Model\bin\Debug\DTcms.Common.pdb
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Model\obj\Debug\DTcms.Model.dll
+E:\动力启航\DTcms\商业源码\4.0\旗舰版\DTcms.Model\obj\Debug\DTcms.Model.pdb
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Model\bin\Debug\DTcms.Model.dll
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Model\bin\Debug\DTcms.Model.pdb
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Model\bin\Debug\DTcms.Common.dll
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Model\bin\Debug\DTcms.Common.pdb
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Model\obj\Debug\DTcms.Model.dll
+E:\动力启航\DTcms\svn\dtcms4acc\DTcms.Model\obj\Debug\DTcms.Model.pdb
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Model\bin\Debug\DTcms.Model.dll
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Model\bin\Debug\DTcms.Model.pdb
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Model\bin\Debug\DTcms.Common.dll
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Model\bin\Debug\DTcms.Common.pdb
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Model\obj\Debug\DTcms.Model.dll
+E:\动力启航\DTcms\商业源码\4.0\商业版\ACCESS\4.0.0\DTcms.Model\obj\Debug\DTcms.Model.pdb
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\bin\Debug\DTcms.Model.dll
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\bin\Debug\DTcms.Model.pdb
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\bin\Debug\DTcms.Common.dll
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\bin\Debug\DTcms.Common.pdb
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\obj\Debug\DTcms.Model.csprojResolveAssemblyReference.cache
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\obj\Debug\DTcms.Model.dll
+G:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\obj\Debug\DTcms.Model.pdb
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\bin\Debug\DTcms.Model.dll
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\bin\Debug\DTcms.Model.pdb
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\bin\Debug\DTcms.Common.dll
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\bin\Debug\DTcms.Common.pdb
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\obj\Debug\DTcms.Model.csprojResolveAssemblyReference.cache
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\obj\Debug\DTcms.Model.dll
+J:\uemo\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\obj\Debug\DTcms.Model.pdb
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\bin\Debug\DTcms.Model.dll
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\bin\Debug\DTcms.Model.pdb
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\bin\Debug\DTcms.Common.dll
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\bin\Debug\DTcms.Common.pdb
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\obj\Debug\DTcms.Model.csprojResolveAssemblyReference.cache
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\obj\Debug\DTcms.Model.dll
+J:\uemo\已完成\jianjie01.mo1.line2.jsmo.xin\src\DTcms.Model\obj\Debug\DTcms.Model.pdb
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Model\bin\Debug\DTcms.Model.dll
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Model\bin\Debug\DTcms.Model.pdb
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Model\bin\Debug\DTcms.Common.dll
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Model\bin\Debug\DTcms.Common.pdb
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Model\obj\Debug\DTcms.Model.csprojResolveAssemblyReference.cache
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Model\obj\Debug\DTcms.Model.dll
+D:\Tencent Files\434954691\FileRecv\给大家分享一模板\DTcms.Model\obj\Debug\DTcms.Model.pdb
+F:\DTCMS\给大家分享一模板\DTcms.Model\bin\Debug\DTcms.Model.dll
+F:\DTCMS\给大家分享一模板\DTcms.Model\bin\Debug\DTcms.Model.pdb
+F:\DTCMS\给大家分享一模板\DTcms.Model\bin\Debug\DTcms.Common.dll
+F:\DTCMS\给大家分享一模板\DTcms.Model\bin\Debug\DTcms.Common.pdb
+F:\DTCMS\给大家分享一模板\DTcms.Model\obj\Debug\DTcms.Model.csprojResolveAssemblyReference.cache
+F:\DTCMS\给大家分享一模板\DTcms.Model\obj\Debug\DTcms.Model.dll
+F:\DTCMS\给大家分享一模板\DTcms.Model\obj\Debug\DTcms.Model.pdb

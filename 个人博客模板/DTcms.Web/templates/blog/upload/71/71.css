@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/*顶部导航背景默认色 */
+/*#header {border-bottom: 1px solid rgba(179, 179, 179, 0.2);background: #fff;}*/
+
+
+/*顶部导航背景滚动颜色与阴影 */
+#header.mini { background:#fff; box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);}
+
+/*顶部导航背景默认色IPAD */
+.lowB #header{ background:#FFF;}
+
+
+#header {font-size:12px;}
+
+#header ul li.navitem a.active,#header ul li.navitem:hover a{ color:#424242;}
+
+#indexPage a.more{color:#424242;border-color:#ececec;}
+#indexPage a.more:hover {border-color:#ececec;text-indent:130px; box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);}
+
+#indexPage #mpartner .slider_control a:hover{ background-color:#424242}
+
+#contactform p .inputsub{ background-color:#424242; margin-top:10px; padding:8px 0;}
+
+#contactform .inputtxt.active{border-color:#424242}
+
+#pages a.active,#pages a:hover{ background:#424242;}
+
+
+
+
+
+
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus {
+    border:#545454 1px solid;
+	background-color:#545454;}
+	
+.serviceitem:hover .title {color: #595959;}	
+
+#header ul li.navitem a {color: #999;}
+
+
+.serviceitem div p.description {
+    color: #848484;
+    height: 50px;
+    overflow: hidden;
+    width: 100%;
+	
+}
+
+/*导航下拉菜单 */
+
+#header ul li.navitem ul.subnav li a {
+    padding: 14px 30px;
+    width: 150px;
+    height: 20px;
+    line-height: 20px;
+    background: rgba(255, 255, 255, 1) none repeat scroll 0% 0%;
+    display: block;
+    font-size: 12px;
+    transition: all 0.2s ease-out 0s;
+    color: #999;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+#header ul li.navitem ul.subnav li {border-bottom: 1px solid #FFF;}
+
+#header ul li.navitem ul.subnav{visibility: hidden;position: absolute;width: 210px;border-top: 3px solid #8D8D8D;top: 58px;left: -70px;margin: 20px 0px;opacity: 0;transition: all 0.3s ease-out 0s;display: block;}
+#header ul li.navitem:hover ul.subnav {visibility: visible;margin: 0px;opacity: 1;}
+#header ul li.navitem ul.subnav li a:hover {background: #FBFBFB;color: #686868;}
+
+
+
+/*幻灯左右切换按钮 */
+.bx-wrapper .bx-controls-direction a {background: rgba(0, 0, 0, 0.2); width: 30px;height: 30px;}
+.bx-wrapper .bx-controls-direction a:hover{ background-color:#424242;}
+.bx-wrapper .bx-controls-direction a i {font-size: 18px;margin-top: 6px;margin-left: 11px;}
+.bx-wrapper .bx-controls-direction a.bx-next i {margin-left: 13px;}
+
+
+ 
+/*副标题 */
+.content .header p.subtitle {color: #787878;font-size: 14px;}
+
+/*首页案例背景颜色 */
+#indexPage #mproject {background-color: #FFF;}
+
+#category a {
+    line-height: 16px;
+    height: 16px;
+    padding: 8px 30px;
+    color: #999;
+   
+    margin-right: 10px;
+    display: inline-block;
+    
+	transition: all 0.3s ease-out 0s;
+}
+#category a.active, #category a:hover { background: #424242 none repeat scroll 0 0;color: #fff; border:1px solid #fff;
+}
+
+.nobanner #header {background:#fff none repeat scroll 0% 0%;}
+
+/*链接颜色 */
+.postbody a {color: rgb(122, 122, 122);text-decoration: underline; transition: all 0.3s ease-out 0s;}
+.postbody a:hover {color: #2F2F2F;}
+
+
+/*案例1180 */
+#mproject{ padding-bottom:80px}
+#projectlist,#projectmore{ margin:0 auto; width:1180px;}
+#projectlist .projectitem { width:380px; height:244px; margin-right:20px; margin-bottom:40px;}
+#projectlist .wrapper{ margin-right:-20px}
+
+#projectmore{ background:#fff;
+   
+    background:none;
+    color: #505050;
+    display: block;
+    font-size: 14px;
+    height: 58px;
+    line-height: 58px;
+    text-indent: 0px;
+    transition: all 0.3s ease-out 0s;
+    width: 360px;
+}
+#projectmore:hover {  height:58px; line-height:58px; text-indent:0;font-size: 14px; background:none; color: #505050;}
+
+/*案例鼠标经过 */
+#projectlist .projectitem a:hover .project_info {background: rgba(255, 255, 255, 0.9);}
+#projectlist .projectitem a:hover .project_info p.title {color: #4D4D4D;}
+
+
+/*首页背景不平铺 */
+#indexPage .module {background-size:auto;}
+
+/*首页背景不加透明蒙层 */
+#indexPage #mproject .bgmask, #indexPage #mnews .bgmask, #indexPage #mservice .bgmask, #indexPage #mpage .bgmask {
+    background-color: rgba(255, 255, 255, 0);
+}
+/*首页服务背景层 */
+#indexPage #mservice {background-color: #F8F8F8;}
+
+.bx-wrapper .bx-pager.bx-default-pager a { border:1px solid #b9b8b8;}
+#contactform p textarea.inputtxt { height:80px;}
+#contactform p .inputtxt { border:none; margin-bottom:5px; background:none;}
+#contactform p { border-bottom:1px solid #dddddd; padding-top:5px; }
+
+#indexPage #mteam { background:#f4f4f4;}
+#indexPage #mteam .description { color::#848484; }
+
+
+
+.content .header p.title { font-size:24px;}
+#indexPage .module .bgmask { background:#fff;}
+#footer { background:#fff; border:1px solid #f1f1f1;}
+#indexPage #mcontact .header p.title { color:#444444;}
+#contactinfo h3 { color:#666;}
+#indexPage #mteam .header p.title { color:#444;}
+#indexPage #mteam .slider_control a i:hover { color:#424242;}
+#contactinfo div a {background: #484848 none repeat scroll 0 0;}
+#footer p { text-align:center;}
+.teamitem a div.wrap {background: #424242 none repeat scroll 0 0;}
+
+#teampost #teambody {margin-left: 600px;}
+#teampost #teamimage img {width: 550px;}
+#teampost #teamimage {width: 550px;}
+
+/*#projectlist .projectitem .project_info p.title {font-size: 12px;color: rgb(102, 102, 102);margin-top: 160px;}
+#projectlist .projectitem { width:380px; height:244px; margin-right:20px; margin-bottom:90px;}
+#projectlist .projectitem .project_info p.subtitle {margin-top: 0px;color: #BABABA;}
+#projectlist .projectitem a:hover .project_info {background:transparent;}
+#projectlist .projectitem a:hover .project_info p.title {margin-top:160px;color: rgb(102, 102, 102);}*/
+
+/*分享颜色*/
+#shares a#sweibo {background-color: #6F6F6F;}
+#shares a#sweibo:hover{background-color: #EA493C;}
+#shares a#sweixin {background-color: #515151;}
+#shares a#sweixin:hover{background-color: #24B727;}
+#shares a {background: transparent;}
+#shares a#sshare {color: transparent;}
+#shares a#gotop {background-color: rgba(0, 0, 0, 0.2);}
+
+
+#newslist .newsbody .description {height: 22px;font-size: 12px;color: #9E9E9E;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+#newslist .newstitem:hover{ background:#f8f8f8 ;}
+#newslist .newstitem:hover p { color:#6E6E6E}
+#newslist .newsinfo .md {color: #DCDCDC;font-size: 22px;line-height:30px;}
+#newslist .newsinfo .year {font-size: 13px;}
+#newslist .newstitem:hover i {font-size: 24px;color: #747474;}
+#newslist .newstitem i {font-size: 24px;}
